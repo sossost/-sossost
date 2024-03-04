@@ -2,6 +2,7 @@
   "version": "6.0",
   "nxVersion": "18.0.6",
   "deps": {
+    "@storybook/addon-docs": "^7.6.17",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "eslint": "^8.48.0",
@@ -36,7 +37,7 @@
       },
       {
         "file": ".pnp.cjs",
-        "hash": "17000378807376660065"
+        "hash": "18232897701038994628"
       },
       {
         "file": ".pnp.loader.mjs",
@@ -56,7 +57,7 @@
       },
       {
         "file": ".yarn/install-state.gz",
-        "hash": "13493998384918622103"
+        "hash": "14258134352299128843"
       },
       {
         "file": ".yarn/releases/yarn-4.1.0.cjs",
@@ -132,11 +133,11 @@
       },
       {
         "file": "nx.json",
-        "hash": "14924708307150832443"
+        "hash": "2802105145389868175"
       },
       {
         "file": "package.json",
-        "hash": "5363582334383209089"
+        "hash": "2998865092008043835"
       },
       {
         "file": "tsconfig.base.json",
@@ -148,7 +149,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "9103839092450957743"
+        "hash": "15527138695120314544"
       }
     ],
     "projectFileMap": {
@@ -218,6 +219,67 @@
           "hash": "10248009443664204963"
         }
       ],
+      "@soaf/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "566686689782292868"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "14735502056972161768",
+          "deps": [
+            "@soaf/esbuild-config",
+            "@soaf/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/Block.tsx",
+          "hash": "12479039702127979774"
+        },
+        {
+          "file": "packages/react/components/layout/src/block.css.ts",
+          "hash": "693141955456129115"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "12541406279628729372"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "10344179325425879767"
+        }
+      ],
+      "@soaf/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "13017944318474362528"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "9863080596448734190"
+        },
+        {
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "17341587499090778034"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "44950424801900105",
+          "deps": [
+            "@soaf/react-components-layout",
+            "@soaf/themes"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
+          "hash": "6246616233057781678"
+        }
+      ],
       "@soaf/esbuild-config": [
         {
           "file": "packages/esbuild-config/README.md",
@@ -230,33 +292,6 @@
         {
           "file": "packages/esbuild-config/package.json",
           "hash": "547067771506616540"
-        }
-      ],
-      "@soaf/react-components-layout": [
-        {
-          "file": "packages/react/components/layout/build.js",
-          "hash": "15318607729458391882"
-        },
-        {
-          "file": "packages/react/components/layout/package.json",
-          "hash": "12908305498537072441",
-          "deps": [
-            "@soaf/esbuild-config",
-            "@soaf/themes",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/components/layout/src/Block.tsx",
-          "hash": "5850185543709874339"
-        },
-        {
-          "file": "packages/react/components/layout/src/index.ts",
-          "hash": "12541406279628729372"
-        },
-        {
-          "file": "packages/react/components/layout/tsconfig.json",
-          "hash": "10344179325425879767"
         }
       ],
       "@soaf/web": [

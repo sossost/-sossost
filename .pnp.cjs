@@ -5425,6 +5425,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:18.2.0"],\
           ["storybook", "npm:7.6.17"],\
+          ["storybook-addon-root-attributes", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:2.1.3"],\
           ["vite", "virtual:d8d3f8afc1af82234d28ba17d4b19a0f6ab025fa332bb964422c533d39162ef49e8e94b84a106a2236a3f9ca59d41250b7ef919ed5b1ddd1e5bfb5ae24a5291f#npm:5.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -15686,6 +15687,32 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["storybook", "npm:7.6.17"],\
           ["@storybook/cli", "npm:7.6.17"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["storybook-addon-root-attributes", [\
+      ["npm:2.1.3", {\
+        "packageLocation": "../.yarn/berry/cache/storybook-addon-root-attributes-npm-2.1.3-3f8dfbf52c-10c0.zip/node_modules/storybook-addon-root-attributes/",\
+        "packageDependencies": [\
+          ["storybook-addon-root-attributes", "npm:2.1.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:2.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/storybook-addon-root-attributes-virtual-66fa771be7/2/.yarn/berry/cache/storybook-addon-root-attributes-npm-2.1.3-3f8dfbf52c-10c0.zip/node_modules/storybook-addon-root-attributes/",\
+        "packageDependencies": [\
+          ["storybook-addon-root-attributes", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:2.1.3"],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
