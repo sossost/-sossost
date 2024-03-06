@@ -1,2 +1,3 @@
 export { Box } from "./Box";
-export type { BoxProps } from "./types";
+export { Spacing } from "./Spacing";
+export type { BoxProps, SpacingProps } from "./types";

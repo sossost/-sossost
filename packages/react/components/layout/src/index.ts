@@ -1,5 +1,5 @@
-export { Box } from "./layout";
-export type { BoxProps } from "./layout";
+export { Box, Spacing } from "./layout";
+export type { BoxProps, SpacingProps } from "./layout";
 
 export { Text } from "./typography";
 export type { TextProps } from "./typography";
