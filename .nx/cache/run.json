@@ -1,43 +1,21 @@
 {
   "run": {
-    "command": "nx build @soaf/react-components-layout",
-    "startTime": "2024-03-04T14:09:38.708Z",
-    "endTime": "2024-03-04T14:09:43.151Z",
+    "command": "nx storybook @soaf/storybook",
+    "startTime": "2024-03-06T12:32:47.240Z",
+    "endTime": "2024-03-06T13:03:13.726Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@soaf/esbuild-config:build",
-      "target": "build",
-      "projectName": "@soaf/esbuild-config",
-      "hash": "3268025558147184747",
-      "startTime": "2024-03-04T14:09:38.712Z",
-      "endTime": "2024-03-04T14:09:38.734Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "@soaf/themes:build",
-      "target": "build",
-      "projectName": "@soaf/themes",
-      "hash": "16705066382409540747",
-      "startTime": "2024-03-04T14:09:38.737Z",
-      "endTime": "2024-03-04T14:09:38.745Z",
-      "params": "",
-      "cacheStatus": "local-cache-hit",
-      "status": 0
-    },
-    {
-      "taskId": "@soaf/react-components-layout:build",
-      "target": "build",
-      "projectName": "@soaf/react-components-layout",
-      "hash": "6197004050254891197",
-      "startTime": "2024-03-04T14:09:38.750Z",
-      "endTime": "2024-03-04T14:09:43.150Z",
+      "taskId": "@soaf/storybook:storybook",
+      "target": "storybook",
+      "projectName": "@soaf/storybook",
+      "hash": "4347079456239765887",
+      "startTime": "2024-03-06T12:32:47.246Z",
+      "endTime": "2024-03-06T13:03:13.724Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }
