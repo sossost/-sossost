@@ -2,6 +2,7 @@
   "name": "@soaf/storybook",
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
+    "@soaf/react-components-button": "workspace:^",
     "@soaf/react-components-layout": "workspace:^",
     "@soaf/themes": "workspace:^",
     "@storybook/addon-essentials": "^7.6.17",
