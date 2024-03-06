@@ -1,4 +1,5 @@
 export { Box } from "./Box";
 export { Spacing } from "./Spacing";
 export { Flex } from "./Flex";
-export type { BoxProps, SpacingProps, FlexProps } from "./types";
+export { Grid } from "./Grid";
+export type { BoxProps, SpacingProps, FlexProps, GridProps } from "./types";
