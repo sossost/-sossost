@@ -26,6 +26,10 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/react/components/layout"\
     },\
     {\
+      "name": "@soaf/react-hooks-button",\
+      "reference": "workspace:packages/react/hooks/button"\
+    },\
+    {\
       "name": "@soaf/themes",\
       "reference": "workspace:packages/themes"\
     },\
@@ -44,6 +48,7 @@ const RAW_RUNTIME_STATE =
     ["@soaf/esbuild-config", ["workspace:packages/esbuild-config"]],\
     ["@soaf/react-components-button", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button", "workspace:packages/react/components/button"]],\
     ["@soaf/react-components-layout", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/layout", "workspace:packages/react/components/layout"]],\
+    ["@soaf/react-hooks-button", ["virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#workspace:packages/react/hooks/button", "workspace:packages/react/hooks/button"]],\
     ["@soaf/storybook", ["workspace:services/storybook"]],\
     ["@soaf/themes", ["workspace:packages/themes"]],\
     ["@soaf/web", ["workspace:services/soaf"]],\
@@ -5377,6 +5382,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-components-button", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-button", "virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#workspace:packages/react/hooks/button"],\
           ["@soaf/themes", "workspace:packages/themes"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
@@ -5403,6 +5409,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-components-button", "workspace:packages/react/components/button"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-button", "virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#workspace:packages/react/hooks/button"],\
           ["@soaf/themes", "workspace:packages/themes"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
@@ -5465,6 +5472,40 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
+    ["@soaf/react-hooks-button", [\
+      ["virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#workspace:packages/react/hooks/button", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-button-virtual-d7e995ebd2/1/packages/react/hooks/button/",\
+        "packageDependencies": [\
+          ["@soaf/react-hooks-button", "virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#workspace:packages/react/hooks/button"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:packages/react/hooks/button", {\
+        "packageLocation": "./packages/react/hooks/button/",\
+        "packageDependencies": [\
+          ["@soaf/react-hooks-button", "workspace:packages/react/hooks/button"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
     ["@soaf/storybook", [\
       ["workspace:services/storybook", {\
         "packageLocation": "./services/storybook/",\
@@ -5472,6 +5513,7 @@ const RAW_RUNTIME_STATE =
           ["@soaf/storybook", "workspace:services/storybook"],\
           ["@soaf/react-components-button", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button"],\
           ["@soaf/react-components-layout", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/layout"],\
+          ["@soaf/react-hooks-button", "virtual:a51acf82b7bc439aea128f00a00fcca7f97984915a1902f8275e377be38431d86a72d4a1ee2f542e3ecdae813abd37a8f391c54bbdd988435f0ee9e662400522#workspace:packages/react/hooks/button"],\
           ["@soaf/themes", "workspace:packages/themes"],\
           ["@storybook/addon-essentials", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:7.6.17"],\
           ["@storybook/addon-interactions", "npm:7.6.17"],\

@@ -2009,3 +2009,712 @@ Unable to create nodes for packages/react/components/layout copy/package.json us
 [NX Daemon Server] - 2024-03-06T14:04:28.031Z - [REQUEST]: packages/react/components/button/tsconfig.json
 [NX Daemon Server] - 2024-03-06T14:04:28.031Z - [REQUEST]: 
 [NX Daemon Server] - 2024-03-06T14:04:28.097Z - Time taken for 'hash changed files from watcher' 0.270291805267334ms
+[NX Daemon Server] - 2024-03-07T12:38:01.853Z - [WATCHER]: packages/react/components/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T12:38:01.853Z - [WATCHER]: packages/react/components/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T12:38:01.854Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:38:01.854Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:38:08.257Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:38:08.257Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:38:08.257Z - [REQUEST]: packages/react/components/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T12:38:08.257Z - [REQUEST]: packages/react/components/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T12:38:08.257Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:38:08.257Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:38:08.294Z - Time taken for 'hash changed files from watcher' 2.176708221435547ms
+[NX Daemon Server] - 2024-03-07T12:38:24.589Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:38:24.589Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:38:24.589Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:38:24.590Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:38:24.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:38:24.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:38:30.990Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:38:30.990Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:38:30.990Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:38:30.991Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:38:30.991Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:38:30.992Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:38:31.028Z - Time taken for 'hash changed files from watcher' 0.2529158592224121ms
+[NX Daemon Server] - 2024-03-07T12:39:13.266Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:39:13.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:39:13.266Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:39:13.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:39:19.666Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:39:19.666Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:39:19.666Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:39:19.668Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:39:19.668Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:39:19.668Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:39:19.711Z - Time taken for 'hash changed files from watcher' 0.3890419006347656ms
+[NX Daemon Server] - 2024-03-07T12:40:38.030Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:40:38.030Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:40:38.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:40:38.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:40:44.432Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:40:44.432Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:40:44.432Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:40:44.432Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:40:44.433Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:40:44.433Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:40:44.476Z - Time taken for 'hash changed files from watcher' 0.36845922470092773ms
+[NX Daemon Server] - 2024-03-07T12:40:50.005Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:40:50.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:40:50.007Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:40:50.007Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:40:56.407Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:40:56.407Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:40:56.407Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:40:56.408Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:40:56.408Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:40:56.408Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:40:56.438Z - Time taken for 'hash changed files from watcher' 0.15016698837280273ms
+[NX Daemon Server] - 2024-03-07T12:41:17.205Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:41:17.205Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:41:17.205Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:41:17.205Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:41:23.606Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:41:23.607Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:41:23.607Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:41:23.607Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:41:23.607Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:41:23.607Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:41:23.651Z - Time taken for 'hash changed files from watcher' 0.25349998474121094ms
+[NX Daemon Server] - 2024-03-07T12:41:25.678Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:41:25.678Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:41:25.679Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:41:25.679Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:41:32.079Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:41:32.079Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:41:32.080Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:41:32.080Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:41:32.080Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:41:32.080Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:41:32.129Z - Time taken for 'hash changed files from watcher' 0.18762493133544922ms
+[NX Daemon Server] - 2024-03-07T12:46:53.200Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:46:53.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:46:53.201Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:46:53.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:46:59.602Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:46:59.602Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:46:59.602Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:46:59.603Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:46:59.604Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:46:59.604Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:46:59.654Z - Time taken for 'hash changed files from watcher' 0.46941709518432617ms
+[NX Daemon Server] - 2024-03-07T12:47:32.650Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:47:32.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:47:32.652Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:47:32.652Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:47:39.052Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:47:39.052Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:47:39.052Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:47:39.053Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:47:39.053Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:47:39.053Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:47:39.087Z - Time taken for 'hash changed files from watcher' 0.36483287811279297ms
+[NX Daemon Server] - 2024-03-07T12:47:43.666Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T12:47:44.397Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-07T12:47:50.748Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T12:47:50.748Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T12:47:50.748Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T12:47:50.749Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-07T12:47:50.749Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-07T12:47:50.751Z - Time taken for 'total for creating and serializing project graph' 0.13370800018310547ms
+[NX Daemon Server] - 2024-03-07T12:47:50.753Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-07T12:47:50.753Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-03-07T12:47:50.784Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-03-07T12:47:50.784Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-03-07T12:47:50.784Z - Handled HASH_TASKS. Handling time: 11. Response time: 0.
+[NX Daemon Server] - 2024-03-07T12:47:50.786Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T12:47:50.786Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T12:47:50.787Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T12:47:50.788Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-07T12:47:50.788Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-07T12:47:50.791Z - Time taken for 'total for creating and serializing project graph' 0.14962482452392578ms
+[NX Daemon Server] - 2024-03-07T12:47:50.796Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-07T12:47:50.796Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 8.
+[NX Daemon Server] - 2024-03-07T12:47:50.820Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-03-07T12:47:50.820Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-03-07T12:47:50.820Z - Handled HASH_TASKS. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2024-03-07T12:47:53.521Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-03-07T12:47:53.521Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-03-07T12:47:53.521Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-03-07T12:47:53.685Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:47:53.686Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:20.624Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:48:20.627Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:20.630Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:48:20.631Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:20.728Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:48:20.728Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:48:20.728Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:48:20.783Z - Time taken for 'hash changed files from watcher' 0.41779088973999023ms
+[NX Daemon Server] - 2024-03-07T12:48:27.033Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:48:27.033Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:48:27.033Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:48:27.085Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:48:27.085Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:27.086Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:48:27.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:27.287Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:48:27.287Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:48:27.287Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:48:27.313Z - Time taken for 'hash changed files from watcher' 0.1567091941833496ms
+[NX Daemon Server] - 2024-03-07T12:48:33.488Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:48:33.489Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:48:33.489Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:48:45.227Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:48:45.228Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:48:45.228Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:45.228Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:48:45.629Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:48:45.629Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:48:45.629Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:48:45.670Z - Time taken for 'hash changed files from watcher' 0.1290421485900879ms
+[NX Daemon Server] - 2024-03-07T12:48:51.629Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:48:51.629Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:48:51.629Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:49:11.557Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:49:11.557Z - [WATCHER]: packages/react/components/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T12:49:11.557Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:49:11.558Z - [WATCHER]: packages/react/components/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T12:49:12.359Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:49:12.359Z - [REQUEST]: packages/react/components/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T12:49:12.359Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:49:12.384Z - Time taken for 'hash changed files from watcher' 0.13020801544189453ms
+[NX Daemon Server] - 2024-03-07T12:49:16.440Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:49:16.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:49:16.440Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:49:16.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:49:17.959Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:49:17.959Z - [REQUEST]: packages/react/components/button/src/types.ts,packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:49:17.959Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:49:18.041Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:49:18.041Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:49:18.041Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:49:18.072Z - Time taken for 'hash changed files from watcher' 0.14004182815551758ms
+[NX Daemon Server] - 2024-03-07T12:50:03.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:50:03.079Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:50:03.080Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:50:03.080Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:50:06.281Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:50:06.281Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:50:06.281Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:50:06.312Z - Time taken for 'hash changed files from watcher' 0.12629222869873047ms
+[NX Daemon Server] - 2024-03-07T12:50:09.481Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:50:09.481Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:50:09.481Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:50:12.616Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:50:12.616Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:50:12.616Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:50:12.616Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:50:19.019Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:50:19.019Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:50:19.019Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:50:19.019Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:50:19.019Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:50:19.019Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:50:19.065Z - Time taken for 'hash changed files from watcher' 1.2462916374206543ms
+[NX Daemon Server] - 2024-03-07T12:51:11.427Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:51:11.427Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:51:11.428Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:51:11.428Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:51:17.829Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:51:17.829Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:51:17.830Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:51:17.830Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:51:17.830Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:51:17.830Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:51:17.870Z - Time taken for 'hash changed files from watcher' 0.5769591331481934ms
+[NX Daemon Server] - 2024-03-07T12:52:42.062Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:42.063Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:43.046Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:43.047Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:45.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:45.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:46.390Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:52:46.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:53:40.364Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:53:40.364Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:53:40.364Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:53:40.364Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:53:46.766Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:53:46.766Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:53:46.767Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:53:46.767Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:53:46.767Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:53:46.767Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:53:46.814Z - Time taken for 'hash changed files from watcher' 0.32895755767822266ms
+[NX Daemon Server] - 2024-03-07T12:54:55.070Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:54:55.070Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:54:55.070Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:54:55.070Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:55:01.471Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:55:01.472Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:55:01.472Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:55:01.472Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:55:01.472Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:55:01.472Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:55:01.513Z - Time taken for 'hash changed files from watcher' 0.32725000381469727ms
+[NX Daemon Server] - 2024-03-07T12:55:09.190Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:55:09.190Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:55:09.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:55:09.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:55:15.592Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:55:15.592Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:55:15.592Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:55:15.592Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:55:15.592Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:55:15.592Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:55:15.638Z - Time taken for 'hash changed files from watcher' 0.2636251449584961ms
+[NX Daemon Server] - 2024-03-07T12:56:45.269Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:56:45.271Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:56:45.271Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:56:45.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:56:51.673Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:56:51.673Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:56:51.673Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:56:51.674Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:56:51.674Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:56:51.674Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:56:51.708Z - Time taken for 'hash changed files from watcher' 0.42474985122680664ms
+[NX Daemon Server] - 2024-03-07T12:57:53.893Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:57:53.895Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:57:53.895Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:57:53.895Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:00.297Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:58:00.297Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:58:00.297Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:58:00.297Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:58:00.297Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:58:00.297Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:58:00.349Z - Time taken for 'hash changed files from watcher' 0.3653750419616699ms
+[NX Daemon Server] - 2024-03-07T12:58:26.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:26.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:28.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:28.134Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:31.337Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:31.338Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:32.081Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:32.082Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:32.967Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:58:32.967Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:32.967Z - [WATCHER]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:58:32.968Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:39.369Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:58:39.369Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:58:39.369Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:58:39.370Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:58:39.370Z - [REQUEST]: services/storybook/stories/ReactComponents/Button/Button.stories.tsx
+[NX Daemon Server] - 2024-03-07T12:58:39.370Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:58:39.430Z - Time taken for 'hash changed files from watcher' 0.4251251220703125ms
+[NX Daemon Server] - 2024-03-07T12:58:55.608Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:58:55.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:58:55.608Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T12:58:55.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:59:02.009Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:59:02.010Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:59:02.010Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:59:02.010Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T12:59:02.010Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:59:02.010Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:59:02.069Z - Time taken for 'hash changed files from watcher' 0.34766626358032227ms
+[NX Daemon Server] - 2024-03-07T12:59:38.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:59:38.411Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:59:38.411Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T12:59:38.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T12:59:44.812Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:59:44.812Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T12:59:44.813Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:59:44.813Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T12:59:44.813Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:59:44.813Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T12:59:44.847Z - Time taken for 'hash changed files from watcher' 0.11791610717773438ms
+[NX Daemon Server] - 2024-03-07T13:00:14.448Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T13:00:14.448Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T13:00:14.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:14.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:20.848Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:00:20.848Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T13:00:20.848Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:00:20.849Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:00:20.850Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T13:00:20.850Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:00:20.906Z - Time taken for 'hash changed files from watcher' 0.16454076766967773ms
+[NX Daemon Server] - 2024-03-07T13:00:24.192Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:24.192Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:25.215Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:25.215Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:28.618Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:28.618Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:29.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:00:29.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:35.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:35.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:36.491Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:36.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:39.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:39.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:40.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:40.189Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:51.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:51.147Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T13:02:51.147Z - [WATCHER]: packages/react/components/button/src/style.css.ts was modified
+[NX Daemon Server] - 2024-03-07T13:02:51.148Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:55.369Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:55.369Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:56.373Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:56.375Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:57.550Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:02:57.550Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T13:02:57.550Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:02:57.550Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:02:57.551Z - [REQUEST]: packages/react/components/button/src/style.css.ts
+[NX Daemon Server] - 2024-03-07T13:02:57.551Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:02:57.624Z - Time taken for 'hash changed files from watcher' 0.7927913665771484ms
+[NX Daemon Server] - 2024-03-07T13:02:59.294Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:02:59.295Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:03:00.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:03:00.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:04:29.025Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:04:29.025Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:04:29.025Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:04:29.025Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:04:35.427Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:04:35.427Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:04:35.427Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:04:35.427Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:04:35.427Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:04:35.427Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:04:35.493Z - Time taken for 'hash changed files from watcher' 0.14674997329711914ms
+[NX Daemon Server] - 2024-03-07T13:05:14.738Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:05:14.738Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:05:14.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:14.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:21.138Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:05:21.138Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:05:21.138Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:05:21.138Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:05:21.138Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:05:21.138Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:05:21.170Z - Time taken for 'hash changed files from watcher' 0.11970806121826172ms
+[NX Daemon Server] - 2024-03-07T13:05:25.124Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:05:25.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:25.124Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:05:25.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:30.299Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:05:30.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:30.300Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:05:30.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:31.525Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:05:31.525Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:05:31.525Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:05:31.526Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:05:31.526Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:05:31.526Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:05:31.562Z - Time taken for 'hash changed files from watcher' 0.13712501525878906ms
+[NX Daemon Server] - 2024-03-07T13:05:41.604Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:41.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:42.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:42.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:45.396Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:45.396Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:46.142Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:05:46.143Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:14.553Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:06:14.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:14.554Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:06:14.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:14.737Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:06:14.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:14.738Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:06:14.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:20.955Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:06:20.955Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:06:20.955Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:06:20.957Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:06:20.957Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:06:20.957Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:06:21.006Z - Time taken for 'hash changed files from watcher' 0.6294999122619629ms
+[NX Daemon Server] - 2024-03-07T13:06:28.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:28.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:29.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:29.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:31.981Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:31.981Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:32.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:32.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:39.122Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:06:39.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:39.123Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:06:39.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:06:45.524Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:06:45.524Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:06:45.524Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:06:45.524Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:06:45.524Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:06:45.524Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:06:45.572Z - Time taken for 'hash changed files from watcher' 0.4159579277038574ms
+[NX Daemon Server] - 2024-03-07T13:08:01.603Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:08:01.606Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:08:01.608Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:08:01.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:08:08.008Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:08:08.008Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:08:08.008Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:08:08.008Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:08:08.009Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:08:08.009Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:08:08.045Z - Time taken for 'hash changed files from watcher' 0.2716660499572754ms
+[NX Daemon Server] - 2024-03-07T13:08:35.278Z - [WATCHER]: packages/react/components/hooks was deleted
+[NX Daemon Server] - 2024-03-07T13:08:35.278Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:08:35.278Z - [WATCHER]: packages/react/components/hooks was deleted
+[NX Daemon Server] - 2024-03-07T13:08:35.278Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:08:41.679Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:08:41.679Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:08:41.680Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:08:41.680Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:08:41.680Z - [REQUEST]: packages/react/components/hooks
+[NX Daemon Server] - 2024-03-07T13:08:41.680Z - [REQUEST]: packages/react/components/hooks
+[NX Daemon Server] - 2024-03-07T13:08:41.727Z - Time taken for 'hash changed files from watcher' 0.24933290481567383ms
+[NX Daemon Server] - 2024-03-07T13:08:52.448Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:08:52.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:08:52.450Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:08:52.450Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:08:52.550Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:08:52.550Z - [REQUEST]: packages/react/hooks/button/package.json,packages/react/hooks/button/build.js,packages/react/hooks/button/src/types.ts,packages/react/hooks/button/src/style.css.ts,packages/react/hooks/button/src/index.ts,packages/react/hooks/button/src/Button.tsx,packages/react/hooks/button/tsconfig.json
+[NX Daemon Server] - 2024-03-07T13:08:52.550Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:08:52.552Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:08:52.552Z - [REQUEST]: packages/react/hooks/button/src/index.ts,packages/react/hooks/button/src/Button.tsx,packages/react/hooks/button/src/style.css.ts,packages/react/hooks/button/src/types.ts,packages/react/hooks/button/build.js,packages/react/hooks/button/tsconfig.json,packages/react/hooks/button/package.json
+[NX Daemon Server] - 2024-03-07T13:08:52.552Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:08:52.587Z - Time taken for 'hash changed files from watcher' 0.701167106628418ms
+[NX Daemon Server] - 2024-03-07T13:09:11.926Z - [WATCHER]: packages/react/hooks/button/package.json was modified
+[NX Daemon Server] - 2024-03-07T13:09:11.926Z - [WATCHER]: packages/react/hooks/button/package.json was modified
+[NX Daemon Server] - 2024-03-07T13:09:11.926Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:09:11.926Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:09:12.128Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:09:12.128Z - [REQUEST]: packages/react/hooks/button/package.json,packages/react/hooks/button/build.js,packages/react/hooks/button/src/types.ts,packages/react/hooks/button/src/style.css.ts,packages/react/hooks/button/src/index.ts,packages/react/hooks/button/src/Button.tsx,packages/react/hooks/button/tsconfig.json
+[NX Daemon Server] - 2024-03-07T13:09:12.128Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:09:12.128Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:09:12.128Z - [REQUEST]: packages/react/hooks/button/src/index.ts,packages/react/hooks/button/src/Button.tsx,packages/react/hooks/button/src/style.css.ts,packages/react/hooks/button/src/types.ts,packages/react/hooks/button/build.js,packages/react/hooks/button/tsconfig.json,packages/react/hooks/button/package.json
+[NX Daemon Server] - 2024-03-07T13:09:12.128Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:09:12.178Z - Time taken for 'hash changed files from watcher' 0.43620777130126953ms
+[NX Daemon Server] - 2024-03-07T13:09:16.393Z - [WATCHER]: packages/react/hooks/button/dist was deleted
+[NX Daemon Server] - 2024-03-07T13:09:16.393Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:09:16.393Z - [WATCHER]: packages/react/hooks/button/dist was deleted
+[NX Daemon Server] - 2024-03-07T13:09:16.394Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:09:16.793Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:09:16.793Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:09:16.793Z - [REQUEST]: packages/react/hooks/button/dist
+[NX Daemon Server] - 2024-03-07T13:09:16.794Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:09:16.795Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:09:16.795Z - [REQUEST]: packages/react/hooks/button/dist
+[NX Daemon Server] - 2024-03-07T13:09:16.837Z - Time taken for 'hash changed files from watcher' 0.10166597366333008ms
+[NX Daemon Server] - 2024-03-07T13:11:02.009Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:02.010Z - [WATCHER]: packages/react/hooks/button/package.json was modified
+[NX Daemon Server] - 2024-03-07T13:11:02.010Z - [WATCHER]: packages/react/hooks/button/package.json was modified
+[NX Daemon Server] - 2024-03-07T13:11:02.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:02.813Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:02.814Z - [REQUEST]: packages/react/hooks/button/package.json
+[NX Daemon Server] - 2024-03-07T13:11:02.814Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:02.814Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:02.814Z - [REQUEST]: packages/react/hooks/button/package.json
+[NX Daemon Server] - 2024-03-07T13:11:02.814Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:02.941Z - Time taken for 'hash changed files from watcher' 0.7527918815612793ms
+[NX Daemon Server] - 2024-03-07T13:11:21.267Z - [WATCHER]: packages/react/hooks/button/build.js was modified
+[NX Daemon Server] - 2024-03-07T13:11:21.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:21.267Z - [WATCHER]: packages/react/hooks/button/build.js was modified
+[NX Daemon Server] - 2024-03-07T13:11:21.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:22.869Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:22.869Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:22.869Z - [REQUEST]: packages/react/hooks/button/build.js
+[NX Daemon Server] - 2024-03-07T13:11:22.869Z - [REQUEST]: packages/react/hooks/button/build.js
+[NX Daemon Server] - 2024-03-07T13:11:22.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:22.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:22.931Z - Time taken for 'hash changed files from watcher' 0.4159998893737793ms
+[NX Daemon Server] - 2024-03-07T13:11:34.123Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:11:34.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:34.124Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:11:34.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:34.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:34.202Z - [WATCHER]: packages/react/hooks/button/src/types.ts was deleted
+[NX Daemon Server] - 2024-03-07T13:11:34.202Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:34.202Z - [WATCHER]: packages/react/hooks/button/src/types.ts was deleted
+[NX Daemon Server] - 2024-03-07T13:11:37.325Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:37.325Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:37.325Z - [REQUEST]: packages/react/hooks/button/src/Button.tsx,packages/react/hooks/button/src/style.css.ts,packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:11:37.325Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:37.325Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:37.326Z - [REQUEST]: packages/react/hooks/button/src/Button.tsx,packages/react/hooks/button/src/style.css.ts,packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:11:37.410Z - Time taken for 'hash changed files from watcher' 0.3499159812927246ms
+[NX Daemon Server] - 2024-03-07T13:11:40.870Z - [WATCHER]: packages/react/hooks/button/src/useButton.ts was created or restored
+[NX Daemon Server] - 2024-03-07T13:11:40.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:40.872Z - [WATCHER]: packages/react/hooks/button/src/useButton.ts was created or restored
+[NX Daemon Server] - 2024-03-07T13:11:40.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:40.972Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:40.972Z - [REQUEST]: packages/react/hooks/button/src/useButton.ts
+[NX Daemon Server] - 2024-03-07T13:11:40.972Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:40.974Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:40.974Z - [REQUEST]: packages/react/hooks/button/src/useButton.ts
+[NX Daemon Server] - 2024-03-07T13:11:40.974Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:11:41.014Z - Time taken for 'hash changed files from watcher' 0.23154211044311523ms
+[NX Daemon Server] - 2024-03-07T13:11:48.220Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:11:48.220Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:11:48.220Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:48.220Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:11:48.321Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:48.321Z - [REQUEST]: packages/react/hooks/button/src/useButton.tsx
+[NX Daemon Server] - 2024-03-07T13:11:48.321Z - [REQUEST]: packages/react/hooks/button/src/useButton.ts
+[NX Daemon Server] - 2024-03-07T13:11:48.321Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:11:48.321Z - [REQUEST]: packages/react/hooks/button/src/useButton.tsx
+[NX Daemon Server] - 2024-03-07T13:11:48.321Z - [REQUEST]: packages/react/hooks/button/src/useButton.ts
+[NX Daemon Server] - 2024-03-07T13:11:48.349Z - Time taken for 'hash changed files from watcher' 0.15158319473266602ms
+[NX Daemon Server] - 2024-03-07T13:12:03.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:12:03.499Z - [WATCHER]: packages/react/hooks/button/src/types.tsx was created or restored
+[NX Daemon Server] - 2024-03-07T13:12:03.500Z - [WATCHER]: packages/react/hooks/button/src/types.tsx was created or restored
+[NX Daemon Server] - 2024-03-07T13:12:03.500Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:12:03.601Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:12:03.601Z - [REQUEST]: packages/react/hooks/button/src/types.tsx
+[NX Daemon Server] - 2024-03-07T13:12:03.601Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:12:03.601Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:12:03.601Z - [REQUEST]: packages/react/hooks/button/src/types.tsx
+[NX Daemon Server] - 2024-03-07T13:12:03.601Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:12:03.634Z - Time taken for 'hash changed files from watcher' 0.10854196548461914ms
+[NX Daemon Server] - 2024-03-07T13:12:08.383Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:12:08.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:12:08.384Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-03-07T13:12:08.384Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:12:08.485Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:12:08.485Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:12:08.485Z - [REQUEST]: packages/react/hooks/button/src/types.tsx
+[NX Daemon Server] - 2024-03-07T13:12:08.487Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:12:08.487Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:12:08.487Z - [REQUEST]: packages/react/hooks/button/src/types.tsx
+[NX Daemon Server] - 2024-03-07T13:12:08.558Z - Time taken for 'hash changed files from watcher' 0.32975006103515625ms
+[NX Daemon Server] - 2024-03-07T13:12:38.456Z - [WATCHER]: packages/react/hooks/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T13:12:38.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:12:38.457Z - [WATCHER]: packages/react/hooks/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T13:12:38.457Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:12:38.658Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:12:38.658Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:12:38.658Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:12:38.658Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:12:38.658Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:12:38.658Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:12:38.695Z - Time taken for 'hash changed files from watcher' 0.14829111099243164ms
+[NX Daemon Server] - 2024-03-07T13:13:24.467Z - [WATCHER]: packages/react/hooks/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T13:13:24.467Z - [WATCHER]: packages/react/hooks/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T13:13:24.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:13:24.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:13:24.869Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:13:24.869Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:13:24.869Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:13:24.869Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:13:24.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:13:24.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:13:24.917Z - Time taken for 'hash changed files from watcher' 0.15262508392333984ms
+[NX Daemon Server] - 2024-03-07T13:14:00.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:14:00.374Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (sources)
+[NX Daemon Server] - 2024-03-07T13:14:00.375Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:14:00.378Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (sources)
+[NX Daemon Server] - 2024-03-07T13:14:00.380Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (outputs)
+[NX Daemon Server] - 2024-03-07T13:14:00.380Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-03-07T13:14:00.380Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (outputs)
+[NX Daemon Server] - 2024-03-07T13:14:00.380Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-03-07T13:32:02.880Z - Started listening on: /var/folders/38/_gqcsd015d7146672tdg0bwm0000gn/T/1c8ed6acc1080dde82ba/d.sock
+[NX Daemon Server] - 2024-03-07T13:32:02.883Z - [WATCHER]: Subscribed to changes within: /Users/jang-yunsu/-sossost (native)
+[NX Daemon Server] - 2024-03-07T13:32:02.886Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T13:32:02.888Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T13:32:02.888Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-07T13:32:02.890Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T13:32:02.890Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-07T13:32:02.892Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-07T13:32:02.893Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:32:02.893Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:32:02.893Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:32:02.912Z - Started listening on: /var/folders/38/_gqcsd015d7146672tdg0bwm0000gn/T/1c8ed6acc1080dde82ba/d.sock
+[NX Daemon Server] - 2024-03-07T13:32:02.914Z - [WATCHER]: Subscribed to changes within: /Users/jang-yunsu/-sossost (native)
+[NX Daemon Server] - 2024-03-07T13:32:03.063Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-07T13:32:03.065Z - Time taken for 'total for creating and serializing project graph' 170.6765832901001ms
+[NX Daemon Server] - 2024-03-07T13:32:03.065Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T13:32:03.066Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-03-07T13:32:03.068Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-07T13:32:03.068Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:32:03.068Z - [REQUEST]: .nx/cache/d/server-process.json
+[NX Daemon Server] - 2024-03-07T13:32:03.068Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:32:03.099Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-07T13:32:03.101Z - Time taken for 'total for creating and serializing project graph' 30.737542152404785ms
+[NX Daemon Server] - 2024-03-07T13:32:03.101Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (sources)
+[NX Daemon Server] - 2024-03-07T13:32:03.101Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (outputs)
+[NX Daemon Server] - 2024-03-07T13:32:03.101Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-07T13:32:15.607Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:32:15.607Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:32:15.708Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:32:15.709Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:32:15.709Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:32:26.248Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:32:26.248Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:32:26.450Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:32:26.450Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:32:26.450Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:33:44.031Z - [WATCHER]: packages/react/hooks/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T13:33:44.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:33:44.433Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:33:44.433Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:33:44.433Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:33:44.797Z - [WATCHER]: packages/react/hooks/button/src/types.ts was modified
+[NX Daemon Server] - 2024-03-07T13:33:44.797Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:33:45.598Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:33:45.598Z - [REQUEST]: packages/react/hooks/button/src/types.ts
+[NX Daemon Server] - 2024-03-07T13:33:45.598Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:33:49.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:33:50.311Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:33:53.282Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:33:59.480Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:33:59.480Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:01.081Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:01.082Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:34:01.082Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:09.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:09.499Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:34:12.700Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:12.700Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:34:12.700Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:26.823Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:34:26.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:30.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:31.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:33.225Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:33.225Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:34:33.225Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:34.571Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:36.150Z - Started listening on: /var/folders/38/_gqcsd015d7146672tdg0bwm0000gn/T/1c8ed6acc1080dde82ba/d.sock
+[NX Daemon Server] - 2024-03-07T13:34:36.151Z - [WATCHER]: Subscribed to changes within: /Users/jang-yunsu/-sossost (native)
+[NX Daemon Server] - 2024-03-07T13:34:36.153Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T13:34:36.155Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-07T13:34:36.158Z - Started listening on: /var/folders/38/_gqcsd015d7146672tdg0bwm0000gn/T/1c8ed6acc1080dde82ba/d.sock
+[NX Daemon Server] - 2024-03-07T13:34:36.159Z - [WATCHER]: Subscribed to changes within: /Users/jang-yunsu/-sossost (native)
+[NX Daemon Server] - 2024-03-07T13:34:36.169Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T13:34:36.170Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-07T13:34:36.172Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-07T13:34:36.176Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-07T13:34:36.177Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:36.177Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:36.177Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:36.206Z - [WATCHER]: .nx/cache/d/server-process.json was modified
+[NX Daemon Server] - 2024-03-07T13:34:36.207Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (sources)
+[NX Daemon Server] - 2024-03-07T13:34:36.207Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (outputs)
+[NX Daemon Server] - 2024-03-07T13:34:36.207Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-03-07T13:34:36.277Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-07T13:34:36.279Z - Time taken for 'total for creating and serializing project graph' 100.57795810699463ms
+[NX Daemon Server] - 2024-03-07T13:34:36.284Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-07T13:34:36.284Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 101. Response time: 7.
+[NX Daemon Server] - 2024-03-07T13:34:36.311Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-03-07T13:34:36.312Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-03-07T13:34:36.312Z - Handled HASH_TASKS. Handling time: 8. Response time: 1.
+[NX Daemon Server] - 2024-03-07T13:35:46.971Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:35:46.972Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (sources)
+[NX Daemon Server] - 2024-03-07T13:35:46.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:35:46.975Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (outputs)
+[NX Daemon Server] - 2024-03-07T13:35:46.975Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-03-07T13:35:46.975Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (sources)
+[NX Daemon Server] - 2024-03-07T13:35:46.977Z - [WATCHER]: Stopping the watcher for /Users/jang-yunsu/-sossost (outputs)
+[NX Daemon Server] - 2024-03-07T13:35:46.977Z - Server stopped because: "Lock file changed"

@@ -1,0 +1,26 @@
+The Daemon Server is not running
+
+Messages from the log:
+[NX Daemon Server] - 2024-03-07T13:34:01.081Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:01.082Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:34:01.082Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:09.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:09.499Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:34:12.700Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:12.700Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:34:12.700Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:26.823Z - [WATCHER]: packages/react/components/button/src/Button.tsx was modified
+[NX Daemon Server] - 2024-03-07T13:34:26.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:30.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:31.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:33.225Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-07T13:34:33.225Z - [REQUEST]: packages/react/components/button/src/Button.tsx
+[NX Daemon Server] - 2024-03-07T13:34:33.225Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-07T13:34:34.571Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-07T13:34:36.150Z - Started listening on: /var/folders/38/_gqcsd015d7146672tdg0bwm0000gn/T/1c8ed6acc1080dde82ba/d.sock
+[NX Daemon Server] - 2024-03-07T13:34:36.151Z - [WATCHER]: Subscribed to changes within: /Users/jang-yunsu/-sossost (native)
+[NX Daemon Server] - 2024-03-07T13:34:36.153Z - Established a connection. Number of open connections: 1
+
+
+
+More information: /Users/jang-yunsu/-sossost/.nx/cache/d/daemon.log

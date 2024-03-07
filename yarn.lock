@@ -3187,6 +3187,7 @@ __metadata:
   resolution: "@soaf/react-components-button@workspace:packages/react/components/button"
   dependencies:
     "@soaf/esbuild-config": "workspace:^"
+    "@soaf/react-hooks-button": "workspace:^"
     "@soaf/themes": "workspace:^"
     "@types/react": "npm:^18.2.61"
     "@types/react-dom": "npm:^18.2.19"
@@ -3227,12 +3228,29 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@soaf/react-hooks-button@workspace:^, @soaf/react-hooks-button@workspace:packages/react/hooks/button":
+  version: 0.0.0-use.local
+  resolution: "@soaf/react-hooks-button@workspace:packages/react/hooks/button"
+  dependencies:
+    "@soaf/esbuild-config": "workspace:^"
+    "@types/react": "npm:^18.2.61"
+    "@types/react-dom": "npm:^18.2.19"
+    clsx: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.3.3"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@soaf/storybook@workspace:services/storybook":
   version: 0.0.0-use.local
   resolution: "@soaf/storybook@workspace:services/storybook"
   dependencies:
     "@soaf/react-components-button": "workspace:^"
     "@soaf/react-components-layout": "workspace:^"
+    "@soaf/react-hooks-button": "workspace:^"
     "@soaf/themes": "workspace:^"
     "@storybook/addon-essentials": "npm:^7.6.17"
     "@storybook/addon-interactions": "npm:^7.6.17"
