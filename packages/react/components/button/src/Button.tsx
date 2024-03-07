@@ -7,16 +7,21 @@ import {
   activeColorVariant,
   enableColorVariant,
   hoverColorVariant,
+  spanStyle,
+  spinnerStyle,
 } from "./style.css";
 import { vars } from "@soaf/themes";
+import { useButton } from "@soaf/react-hooks-button";
 
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
+  const { buttonProps } = useButton(props);
   const {
     variant = "solid",
     size = "md",
     color = "gray",
-
-    isDisabled = false,
+    leftSlot,
+    rightSlot,
+    isLoading,
     children,
     style,
   } = props;
@@ -31,11 +36,10 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
       ? vars.colors.$scale[color][700]
       : vars.colors.$scale[color][100];
 
-  const disabled = isDisabled;
-
   return (
     <button
-      {...props}
+      {...buttonProps}
+      role="button"
       ref={ref}
       className={clsx([
         buttonStyle({
@@ -43,7 +47,6 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
           variant,
         }),
       ])}
-      disabled={disabled}
       style={{
         ...assignInlineVars({
           [enableColorVariant]: enableColor,
@@ -53,7 +56,10 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
         ...style,
       }}
     >
-      {children}
+      {isLoading && <div className={spinnerStyle({ size })} />}
+      {leftSlot && <span className={spanStyle({ size })}>{leftSlot}</span>}
+      <span>{children}</span>
+      {rightSlot && <span className={spanStyle({ size })}>{rightSlot}</span>}
     </button>
   );
 };
