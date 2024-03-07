@@ -1,6 +1,8 @@
 import "@soaf/react-components-button/style.css";
 import { Button as _Button } from "@soaf/react-components-button";
+import { Text } from "@soaf/react-components-layout";
 import { vars } from "@soaf/themes";
+import { useButton } from "@soaf/react-hooks-button";
 
 export default {
   title: "React Components/Button",
@@ -32,6 +34,32 @@ export const ButtonStory = {
     variant: "outline",
     isDisabled: false,
     isLoading: false,
-    leftIcon: "😀",
+    leftSlot: "😀",
+  },
+};
+
+export const TextButtonStory = {
+  render: () => {
+    const { buttonProps } = useButton({
+      elementType: "div",
+      onClick: () => {
+        console.log("d");
+      },
+    });
+
+    return (
+      <Text
+        {...buttonProps}
+        as="div"
+        size="md"
+        color="green"
+        style={{
+          userSelect: "none",
+          cursor: "pointer",
+        }}
+      >
+        Text Button
+      </Text>
+    );
   },
 };
