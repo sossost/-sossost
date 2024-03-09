@@ -3182,6 +3182,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@soaf/react-components-accordion@workspace:^, @soaf/react-components-accordion@workspace:packages/react/components/accordion":
+  version: 0.0.0-use.local
+  resolution: "@soaf/react-components-accordion@workspace:packages/react/components/accordion"
+  dependencies:
+    "@soaf/esbuild-config": "workspace:^"
+    "@soaf/react-hooks-button": "workspace:^"
+    "@soaf/themes": "workspace:^"
+    "@types/react": "npm:^18.2.61"
+    "@types/react-dom": "npm:^18.2.19"
+    "@vanilla-extract/css": "npm:^1.14.1"
+    "@vanilla-extract/dynamic": "npm:^2.1.0"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.5"
+    "@vanilla-extract/recipes": "npm:^0.5.2"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    clsx: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.3.3"
+  peerDependencies:
+    "@soaf/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@soaf/react-components-button@workspace:^, @soaf/react-components-button@workspace:packages/react/components/button":
   version: 0.0.0-use.local
   resolution: "@soaf/react-components-button@workspace:packages/react/components/button"
@@ -3265,6 +3289,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@soaf/storybook@workspace:services/storybook"
   dependencies:
+    "@soaf/react-components-accordion": "workspace:^"
     "@soaf/react-components-button": "workspace:^"
     "@soaf/react-components-layout": "workspace:^"
     "@soaf/react-hooks-button": "workspace:^"

@@ -247,42 +247,6 @@
           "hash": "6587985690369699214"
         }
       ],
-      "@soaf/react-components-button": [
-        {
-          "file": "packages/react/components/button/build.js",
-          "hash": "566686689782292868"
-        },
-        {
-          "file": "packages/react/components/button/package.json",
-          "hash": "2315102029211050240",
-          "deps": [
-            "@soaf/react-hooks-button",
-            "@soaf/esbuild-config",
-            "@soaf/themes",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/components/button/src/Button.tsx",
-          "hash": "2014552514816046741"
-        },
-        {
-          "file": "packages/react/components/button/src/index.ts",
-          "hash": "8409040364927157818"
-        },
-        {
-          "file": "packages/react/components/button/src/style.css.ts",
-          "hash": "14551770562542266920"
-        },
-        {
-          "file": "packages/react/components/button/src/types.ts",
-          "hash": "11212752572326984211"
-        },
-        {
-          "file": "packages/react/components/button/tsconfig.json",
-          "hash": "6587985690369699214"
-        }
-      ],
       "@soaf/web": [
         {
           "file": "services/soaf/.gitignore",
@@ -407,60 +371,101 @@
           "hash": "10248009443664204963"
         }
       ],
-      "@soaf/storybook": [
+      "@soaf/react-components-layout": [
         {
-          "file": "services/storybook/.storybook/main.js",
-          "hash": "13017944318474362528"
+          "file": "packages/react/components/layout/build.js",
+          "hash": "566686689782292868"
         },
         {
-          "file": "services/storybook/.storybook/preview.js",
-          "hash": "9863080596448734190"
-        },
-        {
-          "file": "services/storybook/.storybook/style.css",
-          "hash": "17341587499090778034"
-        },
-        {
-          "file": "services/storybook/README.md",
-          "hash": "2624393197388313932"
-        },
-        {
-          "file": "services/storybook/package.json",
-          "hash": "12438265942329958162",
+          "file": "packages/react/components/layout/package.json",
+          "hash": "11585569413085896088",
           "deps": [
-            "@soaf/react-hooks-button",
-            "@soaf/react-components-button",
-            "@soaf/react-components-layout",
-            "@soaf/themes"
+            "@soaf/esbuild-config",
+            "@soaf/themes",
+            "npm:typescript"
           ]
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
-          "hash": "2341453098581977671"
+          "file": "packages/react/components/layout/src/core/style.css.ts",
+          "hash": "14553575562203847234"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
-          "hash": "2607115047095389631"
+          "file": "packages/react/components/layout/src/core/types.ts",
+          "hash": "17472558738168313143"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
-          "hash": "17303346590408074417"
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "12945805115349610118"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Grid.stories.tsx",
-          "hash": "6991883939152043504"
+          "file": "packages/react/components/layout/src/layout/Box.tsx",
+          "hash": "13377977925104695442"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Heading.stories.tsx",
-          "hash": "5725194945293492017"
+          "file": "packages/react/components/layout/src/layout/Flex.tsx",
+          "hash": "3640111038862352183"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Spacing.stories.tsx",
-          "hash": "1536784415396112716"
+          "file": "packages/react/components/layout/src/layout/Grid.tsx",
+          "hash": "12863608486490895016"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Text.stories.tsx",
-          "hash": "4832887519889668239"
+          "file": "packages/react/components/layout/src/layout/GridItem.tsx",
+          "hash": "2270207377692383051"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Spacing.tsx",
+          "hash": "620193340539824891"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/index.ts",
+          "hash": "10860036041148187813"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/types.ts",
+          "hash": "16861938704627467607"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Heading.tsx",
+          "hash": "13222805395742395328"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Text.tsx",
+          "hash": "10979307672452173694"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/index.ts",
+          "hash": "462209517168200293"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/style.css.ts",
+          "hash": "7001555355300943763"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/types.ts",
+          "hash": "15499181871608564982"
+        },
+        {
+          "file": "packages/react/components/layout/src/utils/properties.ts",
+          "hash": "5698855879563130366"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "10344179325425879767"
+        }
+      ],
+      "@soaf/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "219371835848018192"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "547067771506616540"
         }
       ],
       "@soaf/react-hooks-toggle": [
@@ -492,101 +497,153 @@
           "hash": "14547432263053520029"
         }
       ],
-      "@soaf/react-components-layout": [
+      "@soaf/react-components-accordion": [
         {
-          "file": "packages/react/components/layout/build.js",
+          "file": "packages/react/components/accordion/build.js",
           "hash": "566686689782292868"
         },
         {
-          "file": "packages/react/components/layout/package.json",
-          "hash": "11585569413085896088",
+          "file": "packages/react/components/accordion/package.json",
+          "hash": "4268385650086921808",
           "deps": [
+            "@soaf/react-hooks-button",
             "@soaf/esbuild-config",
             "@soaf/themes",
             "npm:typescript"
           ]
         },
         {
-          "file": "packages/react/components/layout/src/core/style.css.ts",
-          "hash": "14553575562203847234"
+          "file": "packages/react/components/accordion/src/Accordion.tsx",
+          "hash": "11339990629700281998"
         },
         {
-          "file": "packages/react/components/layout/src/core/types.ts",
-          "hash": "5107514389846628691"
+          "file": "packages/react/components/accordion/src/AccordionButton.tsx",
+          "hash": "8807563561247956037"
         },
         {
-          "file": "packages/react/components/layout/src/index.ts",
-          "hash": "16109184864559509254"
+          "file": "packages/react/components/accordion/src/AccordionContext.tsx",
+          "hash": "16802727246996972943"
         },
         {
-          "file": "packages/react/components/layout/src/layout/Box.tsx",
-          "hash": "16519858137742222554"
+          "file": "packages/react/components/accordion/src/AccordionItem.tsx",
+          "hash": "9795560063771801913"
         },
         {
-          "file": "packages/react/components/layout/src/layout/Flex.tsx",
-          "hash": "10065039571497290410"
+          "file": "packages/react/components/accordion/src/AccordionPanel.tsx",
+          "hash": "5747702870621676126"
         },
         {
-          "file": "packages/react/components/layout/src/layout/Grid.tsx",
-          "hash": "548991722034873771"
+          "file": "packages/react/components/accordion/src/index.ts",
+          "hash": "6692487404382574495"
         },
         {
-          "file": "packages/react/components/layout/src/layout/GridItem.tsx",
-          "hash": "6443177303336611620"
+          "file": "packages/react/components/accordion/src/styles.css.ts",
+          "hash": "16576207576854165897"
         },
         {
-          "file": "packages/react/components/layout/src/layout/Spacing.tsx",
-          "hash": "620193340539824891"
+          "file": "packages/react/components/accordion/src/types.ts",
+          "hash": "6410825391604304520"
         },
         {
-          "file": "packages/react/components/layout/src/layout/index.ts",
-          "hash": "10860036041148187813"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/types.ts",
-          "hash": "16861938704627467607"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/Heading.tsx",
-          "hash": "13222805395742395328"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/Text.tsx",
-          "hash": "8175047498117243265"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/index.ts",
-          "hash": "462209517168200293"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/style.css.ts",
-          "hash": "7001555355300943763"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/types.ts",
-          "hash": "1815093120628745748"
-        },
-        {
-          "file": "packages/react/components/layout/src/utils/properties.ts",
-          "hash": "5698855879563130366"
-        },
-        {
-          "file": "packages/react/components/layout/tsconfig.json",
+          "file": "packages/react/components/accordion/tsconfig.json",
           "hash": "10344179325425879767"
         }
       ],
-      "@soaf/esbuild-config": [
+      "@soaf/react-components-button": [
         {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
+          "file": "packages/react/components/button/build.js",
+          "hash": "566686689782292868"
         },
         {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "219371835848018192"
+          "file": "packages/react/components/button/package.json",
+          "hash": "2315102029211050240",
+          "deps": [
+            "@soaf/react-hooks-button",
+            "@soaf/esbuild-config",
+            "@soaf/themes",
+            "npm:typescript"
+          ]
         },
         {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "547067771506616540"
+          "file": "packages/react/components/button/src/Button.tsx",
+          "hash": "2014552514816046741"
+        },
+        {
+          "file": "packages/react/components/button/src/index.ts",
+          "hash": "8409040364927157818"
+        },
+        {
+          "file": "packages/react/components/button/src/style.css.ts",
+          "hash": "14551770562542266920"
+        },
+        {
+          "file": "packages/react/components/button/src/types.ts",
+          "hash": "11212752572326984211"
+        },
+        {
+          "file": "packages/react/components/button/tsconfig.json",
+          "hash": "10344179325425879767"
+        }
+      ],
+      "@soaf/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "13017944318474362528"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "9863080596448734190"
+        },
+        {
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "17341587499090778034"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "17811658893281301635",
+          "deps": [
+            "@soaf/react-components-accordion",
+            "@soaf/react-hooks-button",
+            "@soaf/react-components-button",
+            "@soaf/react-components-layout",
+            "@soaf/themes"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Accordion/Accordion.stories.tsx",
+          "hash": "3129252380247881848"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
+          "hash": "4731189073169716932"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
+          "hash": "2607115047095389631"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
+          "hash": "17303346590408074417"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Grid.stories.tsx",
+          "hash": "6991883939152043504"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Heading.stories.tsx",
+          "hash": "5725194945293492017"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Spacing.stories.tsx",
+          "hash": "1536784415396112716"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Text.stories.tsx",
+          "hash": "4832887519889668239"
         }
       ]
     },
@@ -601,7 +658,7 @@
       },
       {
         "file": ".pnp.cjs",
-        "hash": "4974236798239465849"
+        "hash": "10046707174935881711"
       },
       {
         "file": ".pnp.loader.mjs",
@@ -621,7 +678,7 @@
       },
       {
         "file": ".yarn/install-state.gz",
-        "hash": "2154956619751310331"
+        "hash": "18104838765200337630"
       },
       {
         "file": ".yarn/releases/yarn-4.1.0.cjs",
@@ -713,7 +770,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "8417161477476797653"
+        "hash": "510059915667392313"
       }
     ]
   }
