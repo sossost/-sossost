@@ -25,6 +25,7 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@soaf/react-components-accordion": "workspace:^",
     "@soaf/react-hooks-button": "workspace:^"
   }
 }
