@@ -1,5 +1,5 @@
 {
-  "name": "@soaf/react-hooks-button",
+  "name": "@soaf/react-hooks-toggle",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -29,7 +29,6 @@
     "react": "*"
   },
   "dependencies": {
-    "@soaf/react-hooks-toggle": "workspace:^",
     "clsx": "^2.1.0"
   }
 }

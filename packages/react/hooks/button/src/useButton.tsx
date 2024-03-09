@@ -1,6 +1,6 @@
-import { BaseButtonProps, OverloadButtonFunction } from "./types";
+import { BaseButtonProps, OverloadedButtonFunction } from "./types";
 
-export const useButton: OverloadButtonFunction = (props: any): any => {
+export const useButton: OverloadedButtonFunction = (props: any): any => {
   const {
     elementType = "button",
     isDisabled,
