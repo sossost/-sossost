@@ -3233,6 +3233,23 @@ __metadata:
   resolution: "@soaf/react-hooks-button@workspace:packages/react/hooks/button"
   dependencies:
     "@soaf/esbuild-config": "workspace:^"
+    "@soaf/react-hooks-toggle": "workspace:^"
+    "@types/react": "npm:^18.2.61"
+    "@types/react-dom": "npm:^18.2.19"
+    clsx: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.3.3"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
+"@soaf/react-hooks-toggle@workspace:^, @soaf/react-hooks-toggle@workspace:packages/react/hooks/toggle":
+  version: 0.0.0-use.local
+  resolution: "@soaf/react-hooks-toggle@workspace:packages/react/hooks/toggle"
+  dependencies:
+    "@soaf/esbuild-config": "workspace:^"
     "@types/react": "npm:^18.2.61"
     "@types/react-dom": "npm:^18.2.19"
     clsx: "npm:^2.1.0"
