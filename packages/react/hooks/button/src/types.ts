@@ -30,7 +30,7 @@ export type OverloadedButtonFunction = {
 };
 
 export type UseToggleButtonReturn<T> = UseButtonReturn<T> & {
-  isToggled: boolean;
+  isSelected: boolean;
 };
 
 export type OverloadedToggleButtonFunction = {
