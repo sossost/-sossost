@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx storybook @soaf/storybook",
-    "startTime": "2024-03-09T09:37:17.032Z",
-    "endTime": "2024-03-09T12:49:55.128Z",
+    "startTime": "2024-03-09T13:08:30.918Z",
+    "endTime": "2024-03-09T13:12:44.901Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@soaf/storybook:storybook",
       "target": "storybook",
       "projectName": "@soaf/storybook",
-      "hash": "695893574324437256",
-      "startTime": "2024-03-09T09:37:17.041Z",
-      "endTime": "2024-03-09T12:49:55.125Z",
+      "hash": "11215410786433887424",
+      "startTime": "2024-03-09T13:08:30.928Z",
+      "endTime": "2024-03-09T13:12:44.892Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
