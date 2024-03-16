@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@soaf/react-components-accordion": "workspace:^",
+    "@soaf/react-components-input": "workspace:^",
     "@soaf/react-hooks-button": "workspace:^"
   }
 }
