@@ -18,6 +18,10 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/esbuild-config"\
     },\
     {\
+      "name": "@soaf/react-components-input",\
+      "reference": "workspace:packages/react/components/Input"\
+    },\
+    {\
       "name": "@soaf/react-components-accordion",\
       "reference": "workspace:packages/react/components/accordion"\
     },\
@@ -32,6 +36,10 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "@soaf/react-hooks-button",\
       "reference": "workspace:packages/react/hooks/button"\
+    },\
+    {\
+      "name": "@soaf/react-hooks-input",\
+      "reference": "workspace:packages/react/hooks/input"\
     },\
     {\
       "name": "@soaf/react-hooks-toggle",\
@@ -56,9 +64,11 @@ const RAW_RUNTIME_STATE =
     ["@soaf/esbuild-config", ["workspace:packages/esbuild-config"]],\
     ["@soaf/react-components-accordion", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/accordion", "workspace:packages/react/components/accordion"]],\
     ["@soaf/react-components-button", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button", "workspace:packages/react/components/button"]],\
+    ["@soaf/react-components-input", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/Input", "workspace:packages/react/components/Input"]],\
     ["@soaf/react-components-layout", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/layout", "workspace:packages/react/components/layout"]],\
     ["@soaf/react-hooks-button", ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button", "workspace:packages/react/hooks/button"]],\
-    ["@soaf/react-hooks-toggle", ["virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle", "workspace:packages/react/hooks/toggle"]],\
+    ["@soaf/react-hooks-input", ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input", "workspace:packages/react/hooks/input"]],\
+    ["@soaf/react-hooks-toggle", ["virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle", "workspace:packages/react/hooks/toggle"]],\
     ["@soaf/storybook", ["workspace:services/storybook"]],\
     ["@soaf/themes", ["workspace:packages/themes"]],\
     ["@soaf/web", ["workspace:services/soaf"]],\
@@ -5399,12 +5409,12 @@ const RAW_RUNTIME_STATE =
           ["@types/soaf__themes", null],\
           ["@vanilla-extract/css", "npm:1.14.1"],\
           ["@vanilla-extract/dynamic", "npm:2.1.0"],\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "packagePeers": [\
@@ -5425,12 +5435,12 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.2.19"],\
           ["@vanilla-extract/css", "npm:1.14.1"],\
           ["@vanilla-extract/dynamic", "npm:2.1.0"],\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -5449,12 +5459,12 @@ const RAW_RUNTIME_STATE =
           ["@types/soaf__themes", null],\
           ["@vanilla-extract/css", "npm:1.14.1"],\
           ["@vanilla-extract/dynamic", "npm:2.1.0"],\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "packagePeers": [\
@@ -5475,12 +5485,62 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.2.19"],\
           ["@vanilla-extract/css", "npm:1.14.1"],\
           ["@vanilla-extract/dynamic", "npm:2.1.0"],\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@soaf/react-components-input", [\
+      ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/Input", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-components-input-virtual-55b1effcba/1/packages/react/components/Input/",\
+        "packageDependencies": [\
+          ["@soaf/react-components-input", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/Input"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-input", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input"],\
+          ["@soaf/themes", "workspace:packages/themes"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["@types/soaf__themes", null],\
+          ["@vanilla-extract/css", "npm:1.14.1"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.0"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "packagePeers": [\
+          "@soaf/themes",\
+          "@types/soaf__themes",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:packages/react/components/Input", {\
+        "packageLocation": "./packages/react/components/Input/",\
+        "packageDependencies": [\
+          ["@soaf/react-components-input", "workspace:packages/react/components/Input"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-input", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input"],\
+          ["@soaf/themes", "workspace:packages/themes"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["@vanilla-extract/css", "npm:1.14.1"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.0"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -5497,12 +5557,12 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.2.19"],\
           ["@types/soaf__themes", null],\
           ["@vanilla-extract/css", "npm:1.14.1"],\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "packagePeers": [\
@@ -5521,12 +5581,12 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@vanilla-extract/css", "npm:1.14.1"],\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -5538,12 +5598,12 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-hooks-button", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@soaf/react-hooks-toggle", "virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle"],\
+          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "packagePeers": [\
@@ -5557,28 +5617,64 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-hooks-button", "workspace:packages/react/hooks/button"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@soaf/react-hooks-toggle", "virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle"],\
+          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@soaf/react-hooks-input", [\
+      ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-input-virtual-33a9205a55/1/packages/react/hooks/input/",\
+        "packageDependencies": [\
+          ["@soaf/react-hooks-input", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:packages/react/hooks/input", {\
+        "packageLocation": "./packages/react/hooks/input/",\
+        "packageDependencies": [\
+          ["@soaf/react-hooks-input", "workspace:packages/react/hooks/input"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
       }]\
     ]],\
     ["@soaf/react-hooks-toggle", [\
-      ["virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle", {\
-        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-toggle-virtual-1290c9e9d9/1/packages/react/hooks/toggle/",\
+      ["virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-toggle-virtual-d34d745dcc/1/packages/react/hooks/toggle/",\
         "packageDependencies": [\
-          ["@soaf/react-hooks-toggle", "virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle"],\
+          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "packagePeers": [\
@@ -5596,7 +5692,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -5609,6 +5705,7 @@ const RAW_RUNTIME_STATE =
           ["@soaf/storybook", "workspace:services/storybook"],\
           ["@soaf/react-components-accordion", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/accordion"],\
           ["@soaf/react-components-button", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button"],\
+          ["@soaf/react-components-input", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/Input"],\
           ["@soaf/react-components-layout", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/layout"],\
           ["@soaf/react-hooks-button", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button"],\
           ["@soaf/themes", "workspace:packages/themes"],\
@@ -5655,7 +5752,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:63b1ba15b68f5996c6157324408d3d5fbd10a6aa8d25b24320d6fbed64fc9fd0f8823a4b4e7c76fa565aabefdcba6ee3704e2348b6d9397b205c8aff2397983a#npm:14.1.1"],\
           ["postcss", "npm:8.4.35"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["tailwindcss", "npm:3.4.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
@@ -7756,10 +7853,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5", {\
-        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-esbuild-plugin-virtual-e02dceb2da/2/.yarn/berry/cache/@vanilla-extract-esbuild-plugin-npm-2.3.5-4b0d49b0aa-10c0.zip/node_modules/@vanilla-extract/esbuild-plugin/",\
+      ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5", {\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-esbuild-plugin-virtual-8fb99582c2/2/.yarn/berry/cache/@vanilla-extract-esbuild-plugin-npm-2.3.5-4b0d49b0aa-10c0.zip/node_modules/@vanilla-extract/esbuild-plugin/",\
         "packageDependencies": [\
-          ["@vanilla-extract/esbuild-plugin", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:2.3.5"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
           ["@types/esbuild", null],\
           ["@vanilla-extract/integration", "npm:7.1.1"],\
           ["esbuild", null]\
@@ -7810,10 +7907,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2", {\
-        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-recipes-virtual-5fd02ded99/2/.yarn/berry/cache/@vanilla-extract-recipes-npm-0.5.2-8a609484e7-10c0.zip/node_modules/@vanilla-extract/recipes/",\
+      ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-recipes-virtual-6577990456/2/.yarn/berry/cache/@vanilla-extract-recipes-npm-0.5.2-8a609484e7-10c0.zip/node_modules/@vanilla-extract/recipes/",\
         "packageDependencies": [\
-          ["@vanilla-extract/recipes", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:0.5.2"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
           ["@types/vanilla-extract__css", null],\
           ["@vanilla-extract/css", "npm:1.14.1"]\
         ],\
@@ -7832,10 +7929,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1", {\
-        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-sprinkles-virtual-24a81afdff/2/.yarn/berry/cache/@vanilla-extract-sprinkles-npm-1.6.1-e524ee399f-10c0.zip/node_modules/@vanilla-extract/sprinkles/",\
+      ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1", {\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-sprinkles-virtual-38d3c9dbfc/2/.yarn/berry/cache/@vanilla-extract-sprinkles-npm-1.6.1-e524ee399f-10c0.zip/node_modules/@vanilla-extract/sprinkles/",\
         "packageDependencies": [\
-          ["@vanilla-extract/sprinkles", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:1.6.1"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
           ["@types/vanilla-extract__css", null],\
           ["@vanilla-extract/css", "npm:1.14.1"]\
         ],\
@@ -13544,7 +13641,7 @@ const RAW_RUNTIME_STATE =
           ["graceful-fs", "npm:4.2.11"],\
           ["postcss", "npm:8.4.31"],\
           ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["sass", null],\
           ["styled-jsx", "virtual:0c9c9e9e988363a3fd566d9866eca281c7b54410f4c07f9c59b041906dbb4707cb5571f47fe2d34c070a3e3107f0bc06e67914841fe8e8d92a9da8d9768b77b9#npm:5.1.1"]\
         ],\
@@ -14914,10 +15011,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-d98aa8999a/2/.yarn/berry/cache/react-dom-npm-18.2.0-dd675bca1c-10c0.zip/node_modules/react-dom/",\
+      ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-f20cbce152/2/.yarn/berry/cache/react-dom-npm-18.2.0-dd675bca1c-10c0.zip/node_modules/react-dom/",\
         "packageDependencies": [\
-          ["react-dom", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
           ["@types/react", "npm:18.2.61"],\
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.2.0"],\

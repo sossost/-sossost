@@ -263,6 +263,66 @@
         "tags": []
       }
     },
+    "@soaf/react-components-input": {
+      "name": "@soaf/react-components-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/Input",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react/components/Input",
+        "name": "@soaf/react-components-input",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@soaf/react-hooks-button": {
       "name": "@soaf/react-hooks-button",
       "type": "lib",
@@ -378,6 +438,66 @@
         },
         "sourceRoot": "packages/react/hooks/toggle",
         "name": "@soaf/react-hooks-toggle",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "@soaf/react-hooks-input": {
+      "name": "@soaf/react-hooks-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/input",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react/hooks/input",
+        "name": "@soaf/react-hooks-input",
         "projectType": "library",
         "implicitDependencies": [],
         "tags": []
@@ -12008,6 +12128,28 @@
         "type": "static"
       }
     ],
+    "@soaf/react-components-input": [
+      {
+        "source": "@soaf/react-components-input",
+        "target": "@soaf/react-hooks-input",
+        "type": "static"
+      },
+      {
+        "source": "@soaf/react-components-input",
+        "target": "@soaf/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@soaf/react-components-input",
+        "target": "@soaf/themes",
+        "type": "static"
+      },
+      {
+        "source": "@soaf/react-components-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@soaf/react-hooks-button": [
       {
         "source": "@soaf/react-hooks-button",
@@ -12027,11 +12169,33 @@
         "type": "static"
       }
     ],
+    "@soaf/react-hooks-input": [
+      {
+        "source": "@soaf/react-hooks-input",
+        "target": "@soaf/react-hooks-toggle",
+        "type": "static"
+      },
+      {
+        "source": "@soaf/react-hooks-input",
+        "target": "@soaf/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@soaf/react-hooks-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@soaf/esbuild-config": [],
     "@soaf/storybook": [
       {
         "source": "@soaf/storybook",
         "target": "@soaf/react-components-accordion",
+        "type": "static"
+      },
+      {
+        "source": "@soaf/storybook",
+        "target": "@soaf/react-components-input",
         "type": "static"
       },
       {
