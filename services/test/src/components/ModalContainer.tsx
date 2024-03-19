@@ -4,11 +4,11 @@ import { useModal } from "../hooks/useModal";
 
 const MODAL_ID = "modal-container";
 
-export default function ModalContainer() {
-  const modal = useModal();
-  const topComponentInfo = modal.top;
+const ModalContainer = () => {
+  const { top: topComponentInfo } = useModal();
 
   useEffect(() => {
+    console.log(document.getElementById(MODAL_ID));
     if (document.getElementById(MODAL_ID)) return;
     const modalDOM = document.createElement("div");
     modalDOM.id = MODAL_ID;
@@ -22,9 +22,11 @@ export default function ModalContainer() {
       <topComponentInfo.Component
         resolve={topComponentInfo.resolve}
         reject={topComponentInfo.reject}
-        {...(topComponentInfo?.props ?? {})}
+        {...(topComponentInfo.props ?? {})}
       />
     </div>,
-    window.document.getElementById(MODAL_ID),
+    document.getElementById(MODAL_ID),
   );
-}
+};
+
+export default ModalContainer;
