@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useState } from "react";
-import ModalController from "../app/ModalController";
+import ModalController from "../controller/ModalController";
 import ModalContainer from "../components/ModalContainer";
 
 export const ModalContext = createContext<ModalController | null>(null);
