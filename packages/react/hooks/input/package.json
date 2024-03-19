@@ -29,7 +29,6 @@
     "react": "*"
   },
   "dependencies": {
-    "@soaf/react-hooks-toggle": "workspace:^",
     "clsx": "^2.1.0"
   }
 }
