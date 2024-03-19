@@ -34,12 +34,20 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/react/components/layout"\
     },\
     {\
+      "name": "@soaf/react-components-select",\
+      "reference": "workspace:packages/react/components/select"\
+    },\
+    {\
       "name": "@soaf/react-hooks-button",\
       "reference": "workspace:packages/react/hooks/button"\
     },\
     {\
       "name": "@soaf/react-hooks-input",\
       "reference": "workspace:packages/react/hooks/input"\
+    },\
+    {\
+      "name": "@soaf/react-hooks-select",\
+      "reference": "workspace:packages/react/hooks/select"\
     },\
     {\
       "name": "@soaf/react-hooks-toggle",\
@@ -56,6 +64,10 @@ const RAW_RUNTIME_STATE =
     {\
       "name": "@soaf/storybook",\
       "reference": "workspace:services/storybook"\
+    },\
+    {\
+      "name": "test",\
+      "reference": "workspace:services/test"\
     }\
   ],\
   "enableTopLevelFallback": true,\
@@ -66,13 +78,16 @@ const RAW_RUNTIME_STATE =
     ["@soaf/react-components-button", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button", "workspace:packages/react/components/button"]],\
     ["@soaf/react-components-input", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/Input", "workspace:packages/react/components/Input"]],\
     ["@soaf/react-components-layout", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/layout", "workspace:packages/react/components/layout"]],\
+    ["@soaf/react-components-select", ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/select", "workspace:packages/react/components/select"]],\
     ["@soaf/react-hooks-button", ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button", "workspace:packages/react/hooks/button"]],\
     ["@soaf/react-hooks-input", ["virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input", "workspace:packages/react/hooks/input"]],\
-    ["@soaf/react-hooks-toggle", ["virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle", "workspace:packages/react/hooks/toggle"]],\
+    ["@soaf/react-hooks-select", ["virtual:68db648b27aadb1b7e236dfc607cd8d46a7ac10885ee935528dd4f45647ddb576d660043ed9d320f216ecac9e945d341d4004960017c7ee466405c4cc0fb69c7#workspace:packages/react/hooks/select", "workspace:packages/react/hooks/select"]],\
+    ["@soaf/react-hooks-toggle", ["virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle", "workspace:packages/react/hooks/toggle"]],\
     ["@soaf/storybook", ["workspace:services/storybook"]],\
     ["@soaf/themes", ["workspace:packages/themes"]],\
     ["@soaf/web", ["workspace:services/soaf"]],\
-    ["soaf_project", ["workspace:."]]\
+    ["soaf_project", ["workspace:."]],\
+    ["test", ["workspace:services/test"]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -3679,6 +3694,13 @@ const RAW_RUNTIME_STATE =
           ["@next/env", "npm:14.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "../.yarn/berry/cache/@next-env-npm-14.1.3-d31325b45d-10c0.zip/node_modules/@next/env/",\
+        "packageDependencies": [\
+          ["@next/env", "npm:14.1.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@next/swc-darwin-arm64", [\
@@ -3695,6 +3717,13 @@ const RAW_RUNTIME_STATE =
           ["@next/swc-darwin-arm64", "npm:14.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-darwin-arm64-npm-14.1.3-f38233cf16/node_modules/@next/swc-darwin-arm64/",\
+        "packageDependencies": [\
+          ["@next/swc-darwin-arm64", "npm:14.1.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@next/swc-darwin-x64", [\
@@ -3702,6 +3731,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@next-swc-darwin-x64-npm-14.1.1-8fde253911/node_modules/@next/swc-darwin-x64/",\
         "packageDependencies": [\
           ["@next/swc-darwin-x64", "npm:14.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-darwin-x64-npm-14.1.3-e93ad974f7/node_modules/@next/swc-darwin-x64/",\
+        "packageDependencies": [\
+          ["@next/swc-darwin-x64", "npm:14.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3713,6 +3749,13 @@ const RAW_RUNTIME_STATE =
           ["@next/swc-linux-arm64-gnu", "npm:14.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-linux-arm64-gnu-npm-14.1.3-beeb9e3078/node_modules/@next/swc-linux-arm64-gnu/",\
+        "packageDependencies": [\
+          ["@next/swc-linux-arm64-gnu", "npm:14.1.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@next/swc-linux-arm64-musl", [\
@@ -3720,6 +3763,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@next-swc-linux-arm64-musl-npm-14.1.1-2a0d529751/node_modules/@next/swc-linux-arm64-musl/",\
         "packageDependencies": [\
           ["@next/swc-linux-arm64-musl", "npm:14.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-linux-arm64-musl-npm-14.1.3-4ba36b8d36/node_modules/@next/swc-linux-arm64-musl/",\
+        "packageDependencies": [\
+          ["@next/swc-linux-arm64-musl", "npm:14.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3731,6 +3781,13 @@ const RAW_RUNTIME_STATE =
           ["@next/swc-linux-x64-gnu", "npm:14.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-gnu-npm-14.1.3-b0f4ce4a2f/node_modules/@next/swc-linux-x64-gnu/",\
+        "packageDependencies": [\
+          ["@next/swc-linux-x64-gnu", "npm:14.1.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@next/swc-linux-x64-musl", [\
@@ -3738,6 +3795,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-musl-npm-14.1.1-7755001ca3/node_modules/@next/swc-linux-x64-musl/",\
         "packageDependencies": [\
           ["@next/swc-linux-x64-musl", "npm:14.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-musl-npm-14.1.3-37ca80179d/node_modules/@next/swc-linux-x64-musl/",\
+        "packageDependencies": [\
+          ["@next/swc-linux-x64-musl", "npm:14.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3749,6 +3813,13 @@ const RAW_RUNTIME_STATE =
           ["@next/swc-win32-arm64-msvc", "npm:14.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-win32-arm64-msvc-npm-14.1.3-ca9297921f/node_modules/@next/swc-win32-arm64-msvc/",\
+        "packageDependencies": [\
+          ["@next/swc-win32-arm64-msvc", "npm:14.1.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@next/swc-win32-ia32-msvc", [\
@@ -3758,6 +3829,13 @@ const RAW_RUNTIME_STATE =
           ["@next/swc-win32-ia32-msvc", "npm:14.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-win32-ia32-msvc-npm-14.1.3-f6c3ddcc3d/node_modules/@next/swc-win32-ia32-msvc/",\
+        "packageDependencies": [\
+          ["@next/swc-win32-ia32-msvc", "npm:14.1.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@next/swc-win32-x64-msvc", [\
@@ -3765,6 +3843,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@next-swc-win32-x64-msvc-npm-14.1.1-c851adaec6/node_modules/@next/swc-win32-x64-msvc/",\
         "packageDependencies": [\
           ["@next/swc-win32-x64-msvc", "npm:14.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "./.yarn/unplugged/@next-swc-win32-x64-msvc-npm-14.1.3-6c7e441a50/node_modules/@next/swc-win32-x64-msvc/",\
+        "packageDependencies": [\
+          ["@next/swc-win32-x64-msvc", "npm:14.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5592,13 +5677,63 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
+    ["@soaf/react-components-select", [\
+      ["virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/select", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-components-select-virtual-c65c94e16f/1/packages/react/components/select/",\
+        "packageDependencies": [\
+          ["@soaf/react-components-select", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/select"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-select", "virtual:68db648b27aadb1b7e236dfc607cd8d46a7ac10885ee935528dd4f45647ddb576d660043ed9d320f216ecac9e945d341d4004960017c7ee466405c4cc0fb69c7#workspace:packages/react/hooks/select"],\
+          ["@soaf/themes", "workspace:packages/themes"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["@types/soaf__themes", null],\
+          ["@vanilla-extract/css", "npm:1.14.1"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.0"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "packagePeers": [\
+          "@soaf/themes",\
+          "@types/soaf__themes",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:packages/react/components/select", {\
+        "packageLocation": "./packages/react/components/select/",\
+        "packageDependencies": [\
+          ["@soaf/react-components-select", "workspace:packages/react/components/select"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@soaf/react-hooks-select", "virtual:68db648b27aadb1b7e236dfc607cd8d46a7ac10885ee935528dd4f45647ddb576d660043ed9d320f216ecac9e945d341d4004960017c7ee466405c4cc0fb69c7#workspace:packages/react/hooks/select"],\
+          ["@soaf/themes", "workspace:packages/themes"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["@vanilla-extract/css", "npm:1.14.1"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.0"],\
+          ["@vanilla-extract/esbuild-plugin", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:2.3.5"],\
+          ["@vanilla-extract/recipes", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:0.5.2"],\
+          ["@vanilla-extract/sprinkles", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:1.6.1"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
     ["@soaf/react-hooks-button", [\
       ["virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button", {\
         "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-button-virtual-0bbce2621b/1/packages/react/hooks/button/",\
         "packageDependencies": [\
           ["@soaf/react-hooks-button", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
+          ["@soaf/react-hooks-toggle", "virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
@@ -5617,7 +5752,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-hooks-button", "workspace:packages/react/hooks/button"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
+          ["@soaf/react-hooks-toggle", "virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
@@ -5634,7 +5769,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-hooks-input", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#workspace:packages/react/hooks/input"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
@@ -5653,7 +5787,40 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@soaf/react-hooks-input", "workspace:packages/react/hooks/input"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@soaf/react-hooks-select", [\
+      ["virtual:68db648b27aadb1b7e236dfc607cd8d46a7ac10885ee935528dd4f45647ddb576d660043ed9d320f216ecac9e945d341d4004960017c7ee466405c4cc0fb69c7#workspace:packages/react/hooks/select", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-select-virtual-01a228aa8a/1/packages/react/hooks/select/",\
+        "packageDependencies": [\
+          ["@soaf/react-hooks-select", "virtual:68db648b27aadb1b7e236dfc607cd8d46a7ac10885ee935528dd4f45647ddb576d660043ed9d320f216ecac9e945d341d4004960017c7ee466405c4cc0fb69c7#workspace:packages/react/hooks/select"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["clsx", "npm:2.1.0"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:packages/react/hooks/select", {\
+        "packageLocation": "./packages/react/hooks/select/",\
+        "packageDependencies": [\
+          ["@soaf/react-hooks-select", "workspace:packages/react/hooks/select"],\
+          ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["clsx", "npm:2.1.0"],\
@@ -5665,10 +5832,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@soaf/react-hooks-toggle", [\
-      ["virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle", {\
-        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-toggle-virtual-d34d745dcc/1/packages/react/hooks/toggle/",\
+      ["virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle", {\
+        "packageLocation": "./.yarn/__virtual__/@soaf-react-hooks-toggle-virtual-1290c9e9d9/1/packages/react/hooks/toggle/",\
         "packageDependencies": [\
-          ["@soaf/react-hooks-toggle", "virtual:33a9205a556f51bf36107f9fd51238acd5f4a1df55fe3bd140062b3bce9ff81c4bfc3dfac3b8fe7dfe58e0eb19142cd63958df257b9e7f9eeba70060b08728e2#workspace:packages/react/hooks/toggle"],\
+          ["@soaf/react-hooks-toggle", "virtual:0bbce2621b2a40116e8d4e6e70148d53a4c6fe263675d75a6a471bcf5a2be6e4762d06df6ccece455d90ce7ab0d524f15f2ddde9e6e01413b55c64398686aa47#workspace:packages/react/hooks/toggle"],\
           ["@soaf/esbuild-config", "workspace:packages/esbuild-config"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
@@ -5707,6 +5874,7 @@ const RAW_RUNTIME_STATE =
           ["@soaf/react-components-button", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/button"],\
           ["@soaf/react-components-input", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/Input"],\
           ["@soaf/react-components-layout", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/layout"],\
+          ["@soaf/react-components-select", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#workspace:packages/react/components/select"],\
           ["@soaf/react-hooks-button", "virtual:dfab668cbbdbf43b32814321456b98bfd2062dadb57732573d303624156061d5e999e59fc308f6fff2d60cb01c6b00c5b989322716778176840e691bd3189a9b#workspace:packages/react/hooks/button"],\
           ["@soaf/themes", "workspace:packages/themes"],\
           ["@storybook/addon-essentials", "virtual:200bdff915bfa40ea6b407336c5ffaf404c27bb4e41d4d155659ef84ce1fe265bbc20216abb34d40ee0657979e44db4de34aa45901a28df14a3a210e05096714#npm:7.6.17"],\
@@ -13616,6 +13784,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["npm:14.1.3", {\
+        "packageLocation": "../.yarn/berry/cache/next-npm-14.1.3-8ad6e32792-10c0.zip/node_modules/next/",\
+        "packageDependencies": [\
+          ["next", "npm:14.1.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["virtual:63b1ba15b68f5996c6157324408d3d5fbd10a6aa8d25b24320d6fbed64fc9fd0f8823a4b4e7c76fa565aabefdcba6ee3704e2348b6d9397b205c8aff2397983a#npm:14.1.1", {\
         "packageLocation": "./.yarn/__virtual__/next-virtual-0c9c9e9e98/2/.yarn/berry/cache/next-npm-14.1.1-3cf80ddccd-10c0.zip/node_modules/next/",\
         "packageDependencies": [\
@@ -13630,6 +13805,47 @@ const RAW_RUNTIME_STATE =
           ["@next/swc-win32-arm64-msvc", "npm:14.1.1"],\
           ["@next/swc-win32-ia32-msvc", "npm:14.1.1"],\
           ["@next/swc-win32-x64-msvc", "npm:14.1.1"],\
+          ["@opentelemetry/api", null],\
+          ["@swc/helpers", "npm:0.5.2"],\
+          ["@types/opentelemetry__api", null],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["@types/sass", null],\
+          ["busboy", "npm:1.6.0"],\
+          ["caniuse-lite", "npm:1.0.30001593"],\
+          ["graceful-fs", "npm:4.2.11"],\
+          ["postcss", "npm:8.4.31"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["sass", null],\
+          ["styled-jsx", "virtual:0c9c9e9e988363a3fd566d9866eca281c7b54410f4c07f9c59b041906dbb4707cb5571f47fe2d34c070a3e3107f0bc06e67914841fe8e8d92a9da8d9768b77b9#npm:5.1.1"]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api",\
+          "@types/react-dom",\
+          "@types/react",\
+          "@types/sass",\
+          "react-dom",\
+          "react",\
+          "sass"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:f8ef086eb8f8da29edd8cad4652bff6f85c6a5fd2d09e024f05d8790c8c2b2c46943ddbb1c8fd27c9f2a9d4ddd840dd696c7edfa5d9fc8163e5cb2d1fa386505#npm:14.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/next-virtual-f12afdbfba/2/.yarn/berry/cache/next-npm-14.1.3-8ad6e32792-10c0.zip/node_modules/next/",\
+        "packageDependencies": [\
+          ["next", "virtual:f8ef086eb8f8da29edd8cad4652bff6f85c6a5fd2d09e024f05d8790c8c2b2c46943ddbb1c8fd27c9f2a9d4ddd840dd696c7edfa5d9fc8163e5cb2d1fa386505#npm:14.1.3"],\
+          ["@next/env", "npm:14.1.3"],\
+          ["@next/swc-darwin-arm64", "npm:14.1.3"],\
+          ["@next/swc-darwin-x64", "npm:14.1.3"],\
+          ["@next/swc-linux-arm64-gnu", "npm:14.1.3"],\
+          ["@next/swc-linux-arm64-musl", "npm:14.1.3"],\
+          ["@next/swc-linux-x64-gnu", "npm:14.1.3"],\
+          ["@next/swc-linux-x64-musl", "npm:14.1.3"],\
+          ["@next/swc-win32-arm64-msvc", "npm:14.1.3"],\
+          ["@next/swc-win32-ia32-msvc", "npm:14.1.3"],\
+          ["@next/swc-win32-x64-msvc", "npm:14.1.3"],\
           ["@opentelemetry/api", null],\
           ["@swc/helpers", "npm:0.5.2"],\
           ["@types/opentelemetry__api", null],\
@@ -16475,6 +16691,26 @@ const RAW_RUNTIME_STATE =
           ["unique-string", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
+      }]\
+    ]],\
+    ["test", [\
+      ["workspace:services/test", {\
+        "packageLocation": "./services/test/",\
+        "packageDependencies": [\
+          ["test", "workspace:services/test"],\
+          ["@soaf/themes", "workspace:packages/themes"],\
+          ["@types/node", "npm:20.11.24"],\
+          ["@types/react", "npm:18.2.61"],\
+          ["@types/react-dom", "npm:18.2.19"],\
+          ["autoprefixer", "virtual:63b1ba15b68f5996c6157324408d3d5fbd10a6aa8d25b24320d6fbed64fc9fd0f8823a4b4e7c76fa565aabefdcba6ee3704e2348b6d9397b205c8aff2397983a#npm:10.4.18"],\
+          ["next", "virtual:f8ef086eb8f8da29edd8cad4652bff6f85c6a5fd2d09e024f05d8790c8c2b2c46943ddbb1c8fd27c9f2a9d4ddd840dd696c7edfa5d9fc8163e5cb2d1fa386505#npm:14.1.3"],\
+          ["postcss", "npm:8.4.35"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:4e72baa9e2fa1550a188febafcb39bde577d7b7365ceae22743866ce27b85f2e29a0fa5a4f2eb49bbaacb3b53f08d3e03ae5f792323cde0f93703708f173432b#npm:18.2.0"],\
+          ["tailwindcss", "npm:3.4.1"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "SOFT"\
       }]\
     ]],\
     ["test-exclude", [\
