@@ -1,5 +1,5 @@
 {
-  "name": "soaf_web",
+  "name": "@soaf/web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
