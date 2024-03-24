@@ -3672,6 +3672,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@soaf/web@workspace:services/soaf_web"
   dependencies:
+    "@stackflow/core": "npm:^1.0.10"
+    "@stackflow/plugin-basic-ui": "npm:^1.5.3"
+    "@stackflow/plugin-renderer-basic": "npm:^1.1.8"
+    "@stackflow/react": "npm:^1.1.8"
     "@types/react": "npm:^18.2.66"
     "@types/react-dom": "npm:^18.2.22"
     "@typescript-eslint/eslint-plugin": "npm:^7.2.0"

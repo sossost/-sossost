@@ -1,9 +1,9 @@
-import "./App.css";
+import { Stack } from "./libs/stackflow";
 
 function App() {
   return (
     <>
-      <div>하위</div>
+      <Stack />
     </>
   );
 }
