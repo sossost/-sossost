@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.service.json",
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
@@ -19,17 +18,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-
-    "baseUrl": ".",
-    "paths": {
-      "@/src/*": ["src/*"],
-      "@/src/pages/*": ["src/pages/*"],
-      "@/src/shared/*": ["src/shared/*"],
-      "@/src/features/*": ["src/features/*"],
-      "@/src/assets/*": ["src/assets/*"],
-      "@/src/libs/*": ["src/libs/*"]
-    }
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

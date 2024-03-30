@@ -1,5 +1,5 @@
 {
-  "name": "@sossost/web",
+  "name": "@sossost/react_test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@stackflow/core": "^1.0.10",
-    "@stackflow/plugin-basic-ui": "^1.5.3",
-    "@stackflow/plugin-renderer-basic": "^1.1.8",
-    "@stackflow/react": "^1.1.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
