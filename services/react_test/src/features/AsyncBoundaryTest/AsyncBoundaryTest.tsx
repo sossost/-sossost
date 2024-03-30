@@ -2,7 +2,7 @@ import AsyncBoundary from "../../components/AsyncBoundary";
 import { wrapPromise } from "./wrapPromise";
 import { fetchDataReject, fetchDataResolve } from "./fetchData";
 
-const AsyncBoundaryPage = () => {
+const AsyncBoundaryTest = () => {
   return (
     <div
       style={{
@@ -24,7 +24,7 @@ const AsyncBoundaryPage = () => {
   );
 };
 
-export default AsyncBoundaryPage;
+export default AsyncBoundaryTest;
 
 const fetchDataPromiseResolve = wrapPromise(fetchDataResolve());
 const fetchDataPromiseReject = wrapPromise(fetchDataReject());
