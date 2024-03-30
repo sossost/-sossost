@@ -1,4 +1,4 @@
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { createVar, style } from "@vanilla-extract/css";
 import { recipe } from "@vanilla-extract/recipes";
 

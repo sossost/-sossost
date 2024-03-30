@@ -1,10 +1,10 @@
 {
-  "name": "@soaf/storybook",
+  "name": "@sossost/storybook",
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
-    "@soaf/react-components-button": "workspace:^",
-    "@soaf/react-components-layout": "workspace:^",
-    "@soaf/themes": "workspace:^",
+    "@sossost/react-components-button": "workspace:^",
+    "@sossost/react-components-layout": "workspace:^",
+    "@sossost/themes": "workspace:^",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
@@ -25,9 +25,9 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "@soaf/react-components-accordion": "workspace:^",
-    "@soaf/react-components-input": "workspace:^",
-    "@soaf/react-components-select": "workspace:^",
-    "@soaf/react-hooks-button": "workspace:^"
+    "@sossost/react-components-accordion": "workspace:^",
+    "@sossost/react-components-input": "workspace:^",
+    "@sossost/react-components-select": "workspace:^",
+    "@sossost/react-hooks-button": "workspace:^"
   }
 }

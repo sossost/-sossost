@@ -1,14 +1,14 @@
-import "@soaf/react-components-accordion/style.css";
+import "@sossost/react-components-accordion/style.css";
 import {
   Accordion,
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-} from "@soaf/react-components-accordion";
+} from "@sossost/react-components-accordion";
 import React from "react";
 
-import "@soaf/react-components-layout/style.css";
-import { Text, Heading } from "@soaf/react-components-layout";
+import "@sossost/react-components-layout/style.css";
+import { Text, Heading } from "@sossost/react-components-layout";
 
 export default {
   title: "React Components/Accordion",

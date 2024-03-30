@@ -1,4 +1,4 @@
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { AsElementProps, StyleProps } from "../core/types";
 import { CSSProperties } from "@vanilla-extract/css";
 import { TextProps } from "../typography";

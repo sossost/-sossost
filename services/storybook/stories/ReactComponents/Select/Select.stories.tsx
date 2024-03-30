@@ -1,8 +1,8 @@
-import "@soaf/react-components-select/style.css";
-import { Select } from "@soaf/react-components-select";
+import "@sossost/react-components-select/style.css";
+import { Select } from "@sossost/react-components-select";
 import React from "react";
 
-import "@soaf/react-components-layout/style.css";
+import "@sossost/react-components-layout/style.css";
 
 export default {
   title: "React Components/Select",

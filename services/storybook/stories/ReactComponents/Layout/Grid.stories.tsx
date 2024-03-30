@@ -1,6 +1,6 @@
 import React from "react";
-import "@soaf/react-components-layout/style.css";
-import { Grid as _Grid } from "@soaf/react-components-layout";
+import "@sossost/react-components-layout/style.css";
+import { Grid as _Grid } from "@sossost/react-components-layout";
 
 export default {
   title: "React Components/Layout/Grid",

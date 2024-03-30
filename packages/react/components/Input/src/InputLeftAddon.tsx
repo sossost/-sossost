@@ -1,4 +1,4 @@
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { inputLeftAddonStyle } from "./style.css";
 import { InputLeftAddonProps } from "./types";
 import { clsx } from "clsx";

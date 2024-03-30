@@ -1,4 +1,4 @@
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { style } from "@vanilla-extract/css";
 import { defineProperties, createSprinkles } from "@vanilla-extract/sprinkles";
 

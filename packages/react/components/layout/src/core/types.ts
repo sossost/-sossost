@@ -1,4 +1,4 @@
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { StyleSprinkles } from "./style.css";
 
 type AsProps = {

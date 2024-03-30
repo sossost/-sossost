@@ -1,5 +1,5 @@
-import "@soaf/react-components-layout/style.css";
-import { Box as _Box } from "@soaf/react-components-layout";
+import "@sossost/react-components-layout/style.css";
+import { Box as _Box } from "@sossost/react-components-layout";
 
 export default {
   title: "React Components/Layout/Box",

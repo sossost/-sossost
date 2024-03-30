@@ -2,7 +2,7 @@ import * as React from "react";
 import { useCallback } from "react";
 import { clsx } from "clsx";
 import { AccordionButtonProps } from "./types";
-import { useButton } from "@soaf/react-hooks-button";
+import { useButton } from "@sossost/react-hooks-button";
 import { accordionButtonStyle } from "./styles.css";
 import { useAccordionContext } from "./AccordionContext";
 

@@ -1,5 +1,5 @@
 {
-  "name": "@soaf/esbuild-config",
+  "name": "@sossost/esbuild-config",
   "packageManager": "yarn@4.1.0",
   "main": "index.js",
   "files": [

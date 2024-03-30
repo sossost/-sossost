@@ -1,11 +1,11 @@
-import "@soaf/react-components-layout/style.css";
+import "@sossost/react-components-layout/style.css";
 import React from "react";
 import {
   OrderedList,
   UnorderedList,
   ListItem,
   List,
-} from "@soaf/react-components-layout";
+} from "@sossost/react-components-layout";
 
 export default {
   title: "React Components/Layout/List",

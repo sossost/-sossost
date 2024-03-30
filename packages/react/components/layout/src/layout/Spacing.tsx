@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SpacingProps } from "./types";
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 
 const Spacing = (props: SpacingProps, ref: React.Ref<HTMLHRElement>) => {
   const {

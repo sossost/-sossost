@@ -1,5 +1,5 @@
 {
-  "name": "@soaf/test",
+  "name": "@sossost/next-js-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@soaf/themes": "workspace:^",
+    "@sossost/themes": "workspace:^",
     "@stackflow/core": "^1.0.10",
     "@stackflow/plugin-basic-ui": "^1.5.3",
     "@stackflow/plugin-renderer-basic": "^1.1.8",

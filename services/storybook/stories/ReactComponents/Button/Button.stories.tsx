@@ -1,8 +1,8 @@
-import "@soaf/react-components-button/style.css";
-import { Button as _Button } from "@soaf/react-components-button";
-import { Text } from "@soaf/react-components-layout";
-import { vars } from "@soaf/themes";
-import { useButton, useToggleButton } from "@soaf/react-hooks-button";
+import "@sossost/react-components-button/style.css";
+import { Button as _Button } from "@sossost/react-components-button";
+import { Text } from "@sossost/react-components-layout";
+import { vars } from "@sossost/themes";
+import { useButton, useToggleButton } from "@sossost/react-hooks-button";
 
 export default {
   title: "React Components/Button",

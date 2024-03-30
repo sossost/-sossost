@@ -1,5 +1,5 @@
 {
-  "name": "soaf_project",
+  "name": "sossost",
   "version": "0.0.0",
   "workspaces": [
     "packages/**/*",
@@ -9,8 +9,8 @@
     "build": "nx build",
     "graph": "nx run-many --target=build --graph",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
-    "dev:storybook": "nx storybook @soaf/storybook",
-    "dev:packages": "nx run-many --target=dev --projects='@soaf/react-hooks-*, @soaf/react-components-*'"
+    "dev:storybook": "nx storybook @sossost/storybook",
+    "dev:packages": "nx run-many --target=dev --projects='@sossost/react-hooks-*, @sossost/react-components-*'"
   },
   "packageManager": "yarn@4.1.0",
   "devDependencies": {

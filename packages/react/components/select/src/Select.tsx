@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SelectProps } from "./types";
-import { useSelect } from "@soaf/react-hooks-select";
+import { useSelect } from "@sossost/react-hooks-select";
 
 import { clsx } from "clsx";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
@@ -10,7 +10,7 @@ import {
   focusBorderColorVariant,
   selectStyle,
 } from "./style.css";
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 
 const Select = (props: SelectProps, ref: React.Ref<HTMLSelectElement>) => {
   const {

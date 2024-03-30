@@ -1,6 +1,6 @@
 import { recipe } from "@vanilla-extract/recipes";
 import { createVar, keyframes } from "@vanilla-extract/css";
-import { vars, classes } from "@soaf/themes";
+import { vars, classes } from "@sossost/themes";
 
 export const enableColorVariant = createVar();
 export const hoverColorVariant = createVar();

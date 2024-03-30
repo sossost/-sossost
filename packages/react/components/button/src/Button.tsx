@@ -10,8 +10,8 @@ import {
   spanStyle,
   spinnerStyle,
 } from "./style.css";
-import { vars } from "@soaf/themes";
-import { useButton } from "@soaf/react-hooks-button";
+import { vars } from "@sossost/themes";
+import { useButton } from "@sossost/react-hooks-button";
 
 const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
   const { buttonProps } = useButton(props);

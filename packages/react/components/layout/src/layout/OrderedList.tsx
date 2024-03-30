@@ -1,5 +1,5 @@
 import * as React from "react";
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { Flex } from "./Flex";
 import { OrderListProps } from "./types";
 

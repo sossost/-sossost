@@ -1,6 +1,6 @@
 import "@fastcampus/react-components-layout/style.css";
-import { Heading as _Heading } from "@soaf/react-components-layout";
-import { classes, vars } from "@soaf/themes";
+import { Heading as _Heading } from "@sossost/react-components-layout";
+import { classes, vars } from "@sossost/themes";
 
 export default {
   title: "React Components/Layout/Typography/Heading",

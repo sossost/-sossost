@@ -1,6 +1,6 @@
-import "@soaf/react-components-layout/style.css";
-import { Text as _Text } from "@soaf/react-components-layout";
-import { classes, vars } from "@soaf/themes";
+import "@sossost/react-components-layout/style.css";
+import { Text as _Text } from "@sossost/react-components-layout";
+import { classes, vars } from "@sossost/themes";
 
 export default {
   title: "React Components/Layout/Typography/Text",

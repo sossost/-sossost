@@ -1,10 +1,10 @@
 import React from "react";
-import "@soaf/react-components-input/style.css";
+import "@sossost/react-components-input/style.css";
 import {
   Input,
   InputGroup,
   InputLeftAddon,
-} from "@soaf/react-components-input";
+} from "@sossost/react-components-input";
 
 export default {
   title: "React Components/Input",

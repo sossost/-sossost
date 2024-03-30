@@ -3,7 +3,7 @@ import { FlexProps } from "./types";
 import { clsx } from "clsx";
 import { BaseStyle, StyleSprinkles } from "../core/style.css";
 import { extractSprinkleProps } from "../utils/properties";
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 
 const Flex = (props: FlexProps, ref: React.Ref<HTMLElement>) => {
   const {

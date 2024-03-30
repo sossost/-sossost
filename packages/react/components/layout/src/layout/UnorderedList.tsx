@@ -1,4 +1,4 @@
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 import { Flex } from "./Flex";
 import { UnorderedListProps } from "./types";
 import * as React from "react";

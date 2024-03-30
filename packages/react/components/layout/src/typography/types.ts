@@ -1,4 +1,4 @@
-import { classes } from "@soaf/themes";
+import { classes } from "@sossost/themes";
 import { AsElementProps, StyleProps } from "../core/types";
 import { CSSProperties } from "@vanilla-extract/css";
 

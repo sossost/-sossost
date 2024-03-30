@@ -1,4 +1,4 @@
-import { useToggle } from "@soaf/react-hooks-toggle";
+import { useToggle } from "@sossost/react-hooks-toggle";
 import { OverloadedToggleButtonFunction } from "./types";
 import { useButton } from "./useButton";
 

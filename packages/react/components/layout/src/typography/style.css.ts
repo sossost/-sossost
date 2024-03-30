@@ -1,4 +1,4 @@
-import { classes } from "@soaf/themes";
+import { classes } from "@sossost/themes";
 import { recipe } from "@vanilla-extract/recipes";
 
 export const textStyle = recipe({

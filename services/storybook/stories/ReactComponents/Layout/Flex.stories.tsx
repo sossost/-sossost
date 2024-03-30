@@ -1,6 +1,6 @@
 import React from "react";
-import "@soaf/react-components-layout/style.css";
-import { Flex as _Flex } from "@soaf/react-components-layout";
+import "@sossost/react-components-layout/style.css";
+import { Flex as _Flex } from "@sossost/react-components-layout";
 
 export default {
   title: "React Components/Layout/Flex",

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { InputProps } from "./types";
-import { useInput } from "@soaf/react-hooks-input";
+import { useInput } from "@sossost/react-hooks-input";
 
 import { clsx } from "clsx";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
@@ -10,7 +10,7 @@ import {
   focusBorderColorVariant,
   inputStyle,
 } from "./style.css";
-import { vars } from "@soaf/themes";
+import { vars } from "@sossost/themes";
 
 const Input = (props: InputProps, ref: React.Ref<HTMLInputElement>) => {
   const {

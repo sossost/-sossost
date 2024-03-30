@@ -1,5 +1,5 @@
 {
-  "name": "@soaf/react-hooks-input",
+  "name": "@sossost/react-hooks-input",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
     "dev": "yarn build:js --watch && yarn build:type --watch"
   },
   "devDependencies": {
-    "@soaf/esbuild-config": "workspace:^",
+    "@sossost/esbuild-config": "workspace:^",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "react": "^18.2.0",

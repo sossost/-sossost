@@ -1,6 +1,6 @@
-import "@soaf/react-components-layout/style.css";
-import { Box, Spacing as _Spacing } from "@soaf/react-components-layout";
-import { vars } from "@soaf/themes";
+import "@sossost/react-components-layout/style.css";
+import { Box, Spacing as _Spacing } from "@sossost/react-components-layout";
+import { vars } from "@sossost/themes";
 
 export default {
   title: "React Components/Layout/Spacing",

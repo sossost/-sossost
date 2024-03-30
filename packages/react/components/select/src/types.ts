@@ -1,5 +1,5 @@
-import { UseSelectProps } from "@soaf/react-hooks-select";
-import { vars } from "@soaf/themes";
+import { UseSelectProps } from "@sossost/react-hooks-select";
+import { vars } from "@sossost/themes";
 
 type Size = "lg" | "md" | "sm" | "xs";
 type Color = keyof typeof vars.colors.$scale;
