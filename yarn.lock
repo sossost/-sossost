@@ -3213,6 +3213,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.15.3":
+  version: 1.15.3
+  resolution: "@remix-run/router@npm:1.15.3"
+  checksum: 10c0/aea197447cee21e137d70f0c93e00de70c64fcfae20ae349ade9dc4202e782bd94dbc88be7302d13b6aa6cde38a701b074cd8e09a161d14cecda832a36dd2695
+  languageName: node
+  linkType: hard
+
 "@rollup/pluginutils@npm:^5.0.2":
   version: 5.1.0
   resolution: "@rollup/pluginutils@npm:5.1.0"
@@ -3349,6 +3356,28 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@sossost/next-js-test@workspace:services/nextjs_test":
+  version: 0.0.0-use.local
+  resolution: "@sossost/next-js-test@workspace:services/nextjs_test"
+  dependencies:
+    "@sossost/themes": "workspace:^"
+    "@stackflow/core": "npm:^1.0.10"
+    "@stackflow/plugin-basic-ui": "npm:^1.5.3"
+    "@stackflow/plugin-renderer-basic": "npm:^1.1.8"
+    "@stackflow/react": "npm:^1.1.8"
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    autoprefixer: "npm:^10.0.1"
+    next: "npm:14.1.3"
+    postcss: "npm:^8"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    tailwindcss: "npm:^3.3.0"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "@sossost/react-components-accordion@workspace:^, @sossost/react-components-accordion@workspace:packages/react/components/accordion":
   version: 0.0.0-use.local
   resolution: "@sossost/react-components-accordion@workspace:packages/react/components/accordion"
@@ -3366,7 +3395,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     "@sossost/themes": "workspace:^"
     react: "*"
@@ -3390,7 +3419,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     "@sossost/themes": "workspace:^"
     react: "*"
@@ -3414,7 +3443,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     "@sossost/themes": "workspace:^"
     react: "*"
@@ -3436,7 +3465,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     "@sossost/themes": "workspace:^"
     react: "*"
@@ -3460,7 +3489,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     "@sossost/themes": "workspace:^"
     react: "*"
@@ -3478,7 +3507,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     react: "*"
   languageName: unknown
@@ -3494,7 +3523,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     react: "*"
   languageName: unknown
@@ -3510,7 +3539,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     react: "*"
   languageName: unknown
@@ -3526,9 +3555,29 @@ __metadata:
     clsx: "npm:^2.1.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   peerDependencies:
     react: "*"
+  languageName: unknown
+  linkType: soft
+
+"@sossost/react_test@workspace:services/react_test":
+  version: 0.0.0-use.local
+  resolution: "@sossost/react_test@workspace:services/react_test"
+  dependencies:
+    "@types/react": "npm:^18.2.66"
+    "@types/react-dom": "npm:^18.2.22"
+    "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
+    "@typescript-eslint/parser": "npm:^7.2.0"
+    "@vitejs/plugin-react-swc": "npm:^3.5.0"
+    eslint: "npm:^8.57.0"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.6"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:^6.22.3"
+    typescript: "npm:^5.2.2"
+    vite: "npm:^5.2.0"
   languageName: unknown
   linkType: soft
 
@@ -3560,57 +3609,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sossost/test@workspace:services/test":
-  version: 0.0.0-use.local
-  resolution: "@sossost/test@workspace:services/test"
-  dependencies:
-    "@sossost/themes": "workspace:^"
-    "@stackflow/core": "npm:^1.0.10"
-    "@stackflow/plugin-basic-ui": "npm:^1.5.3"
-    "@stackflow/plugin-renderer-basic": "npm:^1.1.8"
-    "@stackflow/react": "npm:^1.1.8"
-    "@types/node": "npm:^20"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    autoprefixer: "npm:^10.0.1"
-    next: "npm:14.1.3"
-    postcss: "npm:^8"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-    tailwindcss: "npm:^3.3.0"
-    typescript: "npm:^5"
-  languageName: unknown
-  linkType: soft
-
 "@sossost/themes@workspace:^, @sossost/themes@workspace:packages/themes":
   version: 0.0.0-use.local
   resolution: "@sossost/themes@workspace:packages/themes"
   dependencies:
     "@sossost/esbuild-config": "workspace:^"
-    typescript: "npm:^5.3.3"
-  languageName: unknown
-  linkType: soft
-
-"@sossost/web@workspace:services/soaf_web":
-  version: 0.0.0-use.local
-  resolution: "@sossost/web@workspace:services/soaf_web"
-  dependencies:
-    "@stackflow/core": "npm:^1.0.10"
-    "@stackflow/plugin-basic-ui": "npm:^1.5.3"
-    "@stackflow/plugin-renderer-basic": "npm:^1.1.8"
-    "@stackflow/react": "npm:^1.1.8"
-    "@types/react": "npm:^18.2.66"
-    "@types/react-dom": "npm:^18.2.22"
-    "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
-    "@typescript-eslint/parser": "npm:^7.2.0"
-    "@vitejs/plugin-react-swc": "npm:^3.5.0"
-    eslint: "npm:^8.57.0"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.6"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.2.2"
-    vite: "npm:^5.2.0"
+    typescript: "npm:^5.4.3"
   languageName: unknown
   linkType: soft
 
@@ -11910,6 +11914,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.22.3":
+  version: 6.22.3
+  resolution: "react-router-dom@npm:6.22.3"
+  dependencies:
+    "@remix-run/router": "npm:1.15.3"
+    react-router: "npm:6.22.3"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 10c0/39b0472db5d153cbbbf4f5df5c0b26f2b75ffd7b857d7b67d17e03f4618d806b957cf033fbeb265bb317ade951e6ce0d576311bdf6eb15a7013203079cfadf03
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.22.3":
+  version: 6.22.3
+  resolution: "react-router@npm:6.22.3"
+  dependencies:
+    "@remix-run/router": "npm:1.15.3"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 10c0/a2c85c3d1fa93585e312b1f7e6e21d1ca421875013a8d879e109d3ed41fb035bc93faef4cd42b354ea18d039bc50b679bf752679ad83ac26a986e3432fbd0462
+  languageName: node
+  linkType: hard
+
 "react-style-singleton@npm:^2.2.1":
   version: 2.2.1
   resolution: "react-style-singleton@npm:2.2.1"
@@ -12643,7 +12671,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^0.6.13"
     nx: "npm:^18.0.6"
     prettier: "npm:^3.0.3"
-    typescript: "npm:^5.3.3"
+    typescript: "npm:^5.4.3"
   languageName: unknown
   linkType: soft
 
@@ -13478,7 +13506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5, typescript@npm:^5.2.2, typescript@npm:^5.3.3":
+"typescript@npm:^5, typescript@npm:^5.2.2, typescript@npm:^5.4.3":
   version: 5.4.3
   resolution: "typescript@npm:5.4.3"
   bin:
@@ -13488,13 +13516,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.4.3#optional!builtin<compat/typescript>":
   version: 5.4.3
-  resolution: "typescript@patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=d69c25"
+  resolution: "typescript@patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/1b50712759f1e4bf4bf6fe7e662235358b716972dec8aa9ca117dee531dbd7b417f5fe28f74d347b4447eec09a200c0372fe9cf1aad2e15a2bcf4a1a99db0820
+  checksum: 10c0/6e51f8b7e6ec55b897b9e56b67e864fe8f44e30f4a14357aad5dc0f7432db2f01efc0522df0b6c36d361c51f2dc3dcac5c832efd96a404cfabf884e915d38828
   languageName: node
   linkType: hard
 
