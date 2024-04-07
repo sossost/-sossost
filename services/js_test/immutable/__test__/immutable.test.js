@@ -18,32 +18,15 @@ describe("deep copy test", () => {
     e: arr1,
     f: date1,
     g: regExp1,
-    i: map1,
-    j: set1,
+    h: map1,
+    i: set1,
   };
   const obj3 = {
-    a: 1,
-    b: "a",
-    c: "가",
-    d: obj1,
-    e: arr1,
-    f: date1,
-    g: regExp1,
-    h: map1,
-    i: set1,
-    j: obj2,
+    a: obj2,
   };
   const obj4 = {
-    a: 1,
-    b: "a",
-    c: "가",
-    d: obj1,
-    e: arr1,
-    f: date1,
-    g: regExp1,
-    h: map1,
-    i: set1,
-    j: obj3,
+    a: obj2,
+    b: obj3,
   };
 
   const objArrForTest = [
@@ -58,11 +41,17 @@ describe("deep copy test", () => {
     obj4,
   ];
 
-  test.each(objArrForTest)("deepCopy1 function test", (obj) => {
-    expect(deepCopy(obj)).toEqual(obj);
-  });
+  test.each(objArrForTest)(
+    "test deepCopy function for object equality",
+    (obj) => {
+      expect(deepCopy(obj)).toEqual(obj);
+    },
+  );
 
-  test.each(objArrForTest)("deepCopy1 function test2", (obj) => {
-    expect(deepCopy(obj)).not.toBe(obj);
-  });
+  test.each(objArrForTest)(
+    "test deepCopy function for object reference",
+    (obj) => {
+      expect(deepCopy(obj)).not.toBe(obj);
+    },
+  );
 });
