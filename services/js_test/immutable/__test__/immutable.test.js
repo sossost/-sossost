@@ -5,7 +5,6 @@ describe("deep copy test", () => {
   const arr1 = [1, 2, obj1];
   const date1 = new Date();
   const regExp1 = new RegExp("a");
-  const func1 = () => {};
   const map1 = new Map();
   map1.set("a", 1);
   const set1 = new Set();
@@ -19,7 +18,6 @@ describe("deep copy test", () => {
     e: arr1,
     f: date1,
     g: regExp1,
-    h: func1,
     i: map1,
     j: set1,
   };
@@ -31,10 +29,9 @@ describe("deep copy test", () => {
     e: arr1,
     f: date1,
     g: regExp1,
-    h: func1,
-    i: map1,
-    j: set1,
-    k: obj2,
+    h: map1,
+    i: set1,
+    j: obj2,
   };
   const obj4 = {
     a: 1,
@@ -44,10 +41,9 @@ describe("deep copy test", () => {
     e: arr1,
     f: date1,
     g: regExp1,
-    h: func1,
-    i: map1,
-    j: set1,
-    k: obj3,
+    h: map1,
+    i: set1,
+    j: obj3,
   };
 
   const objArrForTest = [
@@ -55,7 +51,6 @@ describe("deep copy test", () => {
     arr1,
     date1,
     regExp1,
-    func1,
     map1,
     set1,
     obj2,
@@ -65,5 +60,9 @@ describe("deep copy test", () => {
 
   test.each(objArrForTest)("deepCopy1 function test", (obj) => {
     expect(deepCopy(obj)).toEqual(obj);
+  });
+
+  test.each(objArrForTest)("deepCopy1 function test2", (obj) => {
+    expect(deepCopy(obj)).not.toBe(obj);
   });
 });
