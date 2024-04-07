@@ -10,7 +10,9 @@
     "graph": "nx run-many --target=build --graph",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
     "dev:storybook": "nx storybook @sossost/storybook",
-    "dev:packages": "nx run-many --target=dev --projects='@sossost/react-hooks-*, @sossost/react-components-*'"
+    "dev:packages": "nx run-many --target=dev --projects='@sossost/react-hooks-*, @sossost/react-components-*'",
+    "test:all": "nx run-many --target=test --all",
+    "test:js": "nx run-many --target=test --projects='@sossost/js-test-*'"
   },
   "devDependencies": {
     "@storybook/addon-docs": "^7.6.17",
