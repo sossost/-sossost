@@ -1,5 +1,5 @@
-export function getObjectType(object) {
-  return Object.prototype.toString.call(object).slice(8, -1);
+export function getType(value) {
+  return Object.prototype.toString.call(value).slice(8, -1);
 }
 
 export function deepCopyObject(object) {
@@ -16,22 +16,22 @@ export function deepCopyObject(object) {
   return coppiedObj;
 }
 
-export function deepCopyArray(object) {
-  const coppiedObj = [];
+export function deepCopyArray(array) {
+  const coppiedArray = [];
 
-  for (let i = 0; i < object.length; i++) {
-    if (typeof object[i] === "object") {
-      coppiedObj[i] = deepCopy(object[i]);
+  for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === "object") {
+      coppiedArray.push(deepCopy(array[i]));
     } else {
-      coppiedObj[i] = object[i];
+      coppiedArray.push(array[i]);
     }
   }
 
-  return coppiedObj;
+  return coppiedArray;
 }
 
 export function deepCopy(object) {
-  const objectType = getObjectType(object);
+  const objectType = getType(object);
 
   switch (objectType) {
     case "Object":
