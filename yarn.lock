@@ -2932,12 +2932,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neondatabase/serverless@npm:0.6.0":
-  version: 0.6.0
-  resolution: "@neondatabase/serverless@npm:0.6.0"
+"@neondatabase/serverless@npm:0.7.2":
+  version: 0.7.2
+  resolution: "@neondatabase/serverless@npm:0.7.2"
   dependencies:
     "@types/pg": "npm:8.6.6"
-  checksum: 10c0/7accc51559689504cfa2cf2f18c74d5c8952cb70148c439a15fb77b302c3604708c057949af7bfb2666389aa463478a6d71c87ed30c8f9f24aa2fc0b5945b289
+  checksum: 10c0/3c050ea6e7ddcd1130716ccad5c0b03b96dc4e5f0cf0bbe1b968a452b38f9f5c02871f91e9c0c11f5623904e217064179374384f0a3cdcd52b1b617f7e6a0391
   languageName: node
   linkType: hard
 
@@ -6300,15 +6300,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/postgres@npm:^0.5.0":
-  version: 0.5.1
-  resolution: "@vercel/postgres@npm:0.5.1"
+"@vercel/postgres@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@vercel/postgres@npm:0.8.0"
   dependencies:
-    "@neondatabase/serverless": "npm:0.6.0"
+    "@neondatabase/serverless": "npm:0.7.2"
     bufferutil: "npm:4.0.8"
     utf-8-validate: "npm:6.0.3"
     ws: "npm:8.14.2"
-  checksum: 10c0/f1aa3f2009a692ee116a4d6c93009c038f95b54729ab8de4b767aa793cb40d4e49f1900a3f81c21967d2055ff93cc0ba3c69f8474b4a9a2362033e2d45ae9edc
+  checksum: 10c0/6091b3abf800bd70455d5a7e87af88ed834c2c6a035b4337208f97c0dfcc3d7cda77a5aec6751f5e64f44f5833b9bdc55eef8aaa3b09d41f75d34d888116eeca
   languageName: node
   linkType: hard
 
@@ -12673,7 +12673,7 @@ __metadata:
     "@types/node": "npm:20.5.7"
     "@types/react": "npm:18.2.21"
     "@types/react-dom": "npm:18.2.14"
-    "@vercel/postgres": "npm:^0.5.0"
+    "@vercel/postgres": "npm:^0.8.0"
     "@vercel/style-guide": "npm:^5.0.1"
     autoprefixer: "npm:10.4.15"
     bcrypt: "npm:^5.1.1"
@@ -12690,6 +12690,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     tailwindcss: "npm:3.3.3"
     typescript: "npm:5.2.2"
+    use-debounce: "npm:^10.0.1"
     zod: "npm:^3.22.2"
   languageName: unknown
   linkType: soft
@@ -16122,6 +16123,15 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 10c0/d232c37160fe3970c99255da19b5fb5299fb5926a5d6141d928a87feb47732c323d29be2f8137d3b1e5499c70d284cd1d9cfad703cc58179db8be24d7dd8f1f2
+  languageName: node
+  linkType: hard
+
+"use-debounce@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "use-debounce@npm:10.0.1"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 10c0/377a11814a708f5c392f465cbbe2d119a8a2635c8226cc5e30eba397c4436f8e8234385d069467b369d105ed0d3be733c6a08d8ae1004017c6d6f58f4d4c24d8
   languageName: node
   linkType: hard
 
